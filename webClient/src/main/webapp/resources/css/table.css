@@ -1,0 +1,122 @@
+.mystil {
+    font-family: Arial, Helvetica, "Times New Roman", Times, "Courier New", Courier;
+    font-style:italic;
+    font-weight:bolder;
+    /*text-align:left;*/
+    /*text-indent:20px;*/
+    color:blue;
+    /*background-color:#fb0;*/
+    /*background:orange;*/
+    /*background:linear-gradient(top, #fb0, #f50);*/
+    /*background:-moz-linear-gradient(top, #fb0, #f50);*/
+    /*background:-webkit-linear-gradient(top, #fb0, #f50);*/
+    /*background:-o-linear-gradient(top, #fb0, #f50);*/
+    /*background:-ms-linear-gradient(top, #fb0, #f50);*/
+    /*position:fixed;*/
+    /*top     :0px;*/
+    /*left    :0px;*/
+
+}
+/*.welcome { font-style:italic; color:blue; }*/
+table.myformat {
+    /*font-size: x-large;*/
+    text-align: left;
+    margin: auto;
+}
+table.myformat td:last-child {
+    /*font-size: x-large;*/
+    padding-left: 20px;
+    /*width: 100px;*/
+}
+
+table.mytable {
+    /*font-family: verdana, arial, sans-serif;*/
+    /*font-size: 11px;*/
+    color: black;
+    /*border-width: 1px;*/
+    /*border-color: white;*/
+    border-collapse: collapse;
+    /*width:60%;*/
+    margin: auto;
+}
+table.mytable caption {
+    /*padding: 0.3em;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000;
+    font-size: x-large;
+    font-weight: bold;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #1C0D0C;
+    border-bottom-style: none;
+    /*background: #000;*/
+}
+table.mytable th {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    /*border-width: 1px;*/
+    /*padding: 8px;*/
+    border-width: 2px;
+    border-style: solid;
+    border-color: #1C0D0C;
+    background-color: #d51d1f;
+    color: #ffffff;
+    white-space: nowrap;
+}
+table.mytable tr:hover td {
+    /*cursor: pointer;*/
+}
+table.mytable tr:nth-child(even) {
+    background-color: #fff392;
+}
+table.mytable td:first-child {
+    border-width: 2px;
+    padding: 7px;
+    border-style: solid;
+    border-color: #1C0D0C;
+    background-color: #d51d1f;
+    color: white;
+    text-align: center;
+    width: 10%;
+    /*background-color: #ffffff;*/
+}
+table.mytable td:last-child {
+    white-space: nowrap;
+    width: 1%;
+}
+table.mytable td {
+    border-width: 2px;
+    padding: 7px;
+    border-style: solid;
+    border-color: #1C0D0C;
+    /*background-color: #ffffff;*/
+}
+
+input.myinput {
+    /*height: 24px;*/
+    width: 160px;
+    /*color: #cccccc;*/
+    font-size: 18px;
+}
+
+button.mybutton {
+    /*height: 24px;*/
+    width: 160px;
+    /*color: #cccccc;*/
+    font-size: 18px;
+    color: #d51d1f;
+}
+
+input{
+    /*height: 24px;*/
+    /*width: 160px;*/
+    color: #d51d1f;
+    /*font-size: 18px;*/
+}
+
+.all{
+    color: #d51d1f;
+}
