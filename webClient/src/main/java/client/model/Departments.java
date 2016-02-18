@@ -4,10 +4,10 @@ import java.io.Serializable;
 import java.util.List;
 
 public class Departments implements Serializable {
+
     private List<Department> departments;
 
-    public Departments() {
-    }
+    public Departments() {}
 
     public Departments(List<Department> departments) {
         this.departments = departments;

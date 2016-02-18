@@ -3,7 +3,6 @@
 <%@ taglib prefix="spring_tags" uri="http://www.springframework.org/tags" %>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%--<!DOCTYPE html>--%>
 <html>
 
   <head>
@@ -37,7 +36,7 @@
         </tr>
       </c:forEach>
 
-      <form id="select_Department" method="get" modelAttribute="modelDepartment" action="table_Employee"></form>
+      <form id="select_Department" method="get" modelAttribute="modelDepartment" action="../employee/table_Employee"></form>
       <form id="update_Department" method="post" modelAttribute="modelDepartment" action="edit_Department"></form>
       <form id="delete_Department" method="post" modelAttribute="modelDepartment" action="delete_Department"></form>
 
@@ -58,14 +57,14 @@
   <div class="mystil" align="center">
     <h2> Search 'Employee'</h2>
 
-    <form method="get" action="find_Employee">
+    <form method="get" action="../employee/find_Employee">
         <label>Date of birth:</label>
         <input type="Date" size="40%" name="firstBirthDate">
         <%--<input hidden type="Date" size="40%" name="d2">--%>
         <input type="submit" value="Search" class="myinput">
     </form>
 
-    <form method="get" action="find_Employee">
+    <form method="get" action="../employee/find_Employee">
         <label>Range Date of birth:</label>
         <input type="Date" size="40%" name="firstBirthDate">
         <input type="Date" size="40%" name="lastBirthDate">

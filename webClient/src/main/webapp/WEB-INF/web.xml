@@ -10,7 +10,7 @@
         <param-name>contextConfigLocation</param-name>
         <param-value>
             /WEB-INF/spring/root-context.xml
-            /WEB-INF/spring/restful-client-app-context.xml
+            classpath:META-INF/spring/restful-client-app-context.xml
         </param-value>
     </context-param>
 

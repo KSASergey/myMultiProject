@@ -1,27 +1,18 @@
 package client.model;
 
-//import javax.persistence.*;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 import java.io.Serializable;
 
-//@Entity
-//@Table(name = "department")
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Department implements Serializable {
 
-//    @Id
-//    @Column(name = "ID")
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-//    @Column(name="DepartmentName")
     private String departmentName;
 
     private Double averageSalary;
 
-    public Department() {
-    }
+    public Department() {}
 
     public Department (Long id, String departmentName, Double averageSalary) {
         this.id = id;

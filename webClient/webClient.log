@@ -1,0 +1,953 @@
+11:54:20,374 DEBUG client.controller.EmployeeControllerTest:  81 - Start testGetEmployeeLIst
+11:54:20,650  INFO   client.controller.DepartmentController:  59 - Delete department
+11:54:20,656 DEBUG     client.service.DepartmentServiceImpl:  87 - delete department by id : 3
+11:54:21,362 DEBUG client.controller.EmployeeControllerTest:  89 - Finish testGetEmployeeLIst
+11:54:21,390 DEBUG client.controller.EmployeeControllerTest:  68 - Start testAddDepartment
+11:54:21,394  INFO   client.controller.DepartmentController:  46 - View form add new department
+11:54:21,429 DEBUG client.controller.EmployeeControllerTest:  76 - Finish testAddDepartment
+11:54:21,478 DEBUG client.controller.EmployeeControllerTest: 126 - Start testUpdateDepartment
+11:54:21,484  INFO   client.controller.DepartmentController: 101 - Update the editing existing department
+11:54:21,485 DEBUG     client.service.DepartmentServiceImpl:  77 - update department by id :
+11:54:21,882 DEBUG     client.service.DepartmentServiceImpl:  79 - Department update successfully: Department - Id:  1,  departmentName:  Department19, average salary:  null
+11:54:21,890 DEBUG client.controller.EmployeeControllerTest: 140 - Finish testUpdateDepartment
+11:54:21,926 DEBUG client.controller.EmployeeControllerTest:  94 - Start testInsertDepartment
+11:54:21,930  INFO   client.controller.DepartmentController:  71 - Insert new department
+11:54:21,931 DEBUG     client.service.DepartmentServiceImpl:  41 - create department :
+11:54:22,226 DEBUG     client.service.DepartmentServiceImpl:  43 - Department created successfully: Department - Id:  20,  departmentName:  Department99, average salary:  0.0
+11:54:22,234 DEBUG client.controller.EmployeeControllerTest: 107 - Finish testInsertDepartment
+11:54:22,257 DEBUG client.controller.EmployeeControllerTest: 112 - Start testEditDepartment
+11:54:22,261  INFO   client.controller.DepartmentController:  85 - View form editing new department
+11:54:22,262 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 1
+11:54:22,372 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1105.0
+11:54:22,381 DEBUG client.controller.EmployeeControllerTest: 121 - Finish testEditDepartment
+11:54:22,416 DEBUG client.controller.EmployeeControllerTest:  51 - Start testGetDepartmentLIst
+11:54:22,421 DEBUG     client.service.DepartmentServiceImpl:  64 - retrieve all departments:
+11:54:22,507 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1105.0
+11:54:22,508 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  2,  departmentName:  Test Department, average salary:  548.1111
+11:54:22,508 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  4,  departmentName:  Asou, average salary:  1045.0
+11:54:22,509 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  5,  departmentName:  Testing, average salary:  0.0
+11:54:22,509 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  6,  departmentName:  Central department, average salary:  622.0
+11:54:22,524 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  7,  departmentName:  Department99, average salary:  0.0
+11:54:22,524 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  8,  departmentName:  New test Department, average salary:  0.0
+11:54:22,525 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  9,  departmentName:  New test Department, average salary:  0.0
+11:54:22,525 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  10,  departmentName:  New test Department, average salary:  0.0
+11:54:22,525 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  11,  departmentName:  New test Department, average salary:  0.0
+11:54:22,526 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  12,  departmentName:  Department99, average salary:  0.0
+11:54:22,527 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  13,  departmentName:  New test Department, average salary:  0.0
+11:54:22,527 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  14,  departmentName:  Department99, average salary:  0.0
+11:54:22,527 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  15,  departmentName:  New test Department, average salary:  0.0
+11:54:22,528 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  16,  departmentName:  Department99, average salary:  0.0
+11:54:22,528 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  17,  departmentName:  New test Department, average salary:  0.0
+11:54:22,529 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  18,  departmentName:  Department99, average salary:  0.0
+11:54:22,529 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  19,  departmentName:  New test Department, average salary:  0.0
+11:54:22,530 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  20,  departmentName:  Department99, average salary:  0.0
+11:54:22,538 DEBUG client.controller.EmployeeControllerTest:  63 - Finish testGetDepartmentLIst
+11:57:27,478 DEBUG client.service.DepartmentServiceImplTest:  38 - Start testGet
+11:57:27,485 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 1
+11:57:28,424 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1105.0
+11:57:28,424 DEBUG client.service.DepartmentServiceImplTest:  41 - Finish testGet
+11:57:28,436 DEBUG client.service.DepartmentServiceImplTest:  46 - Start testGetList
+11:57:28,437 DEBUG     client.service.DepartmentServiceImpl:  64 - retrieve all departments:
+11:57:28,517 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1105.0
+11:57:28,518 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  2,  departmentName:  Test Department, average salary:  548.1111
+11:57:28,518 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  4,  departmentName:  Asou, average salary:  1045.0
+11:57:28,518 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  5,  departmentName:  Testing, average salary:  0.0
+11:57:28,519 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  6,  departmentName:  Central department, average salary:  622.0
+11:57:28,520 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  7,  departmentName:  Department99, average salary:  0.0
+11:57:28,522 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  8,  departmentName:  New test Department, average salary:  0.0
+11:57:28,522 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  9,  departmentName:  New test Department, average salary:  0.0
+11:57:28,522 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  10,  departmentName:  New test Department, average salary:  0.0
+11:57:28,523 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  11,  departmentName:  New test Department, average salary:  0.0
+11:57:28,523 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  12,  departmentName:  Department99, average salary:  0.0
+11:57:28,523 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  13,  departmentName:  New test Department, average salary:  0.0
+11:57:28,524 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  14,  departmentName:  Department99, average salary:  0.0
+11:57:28,525 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  15,  departmentName:  New test Department, average salary:  0.0
+11:57:28,525 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  16,  departmentName:  Department99, average salary:  0.0
+11:57:28,525 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  17,  departmentName:  New test Department, average salary:  0.0
+11:57:28,526 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  18,  departmentName:  Department99, average salary:  0.0
+11:57:28,526 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  19,  departmentName:  New test Department, average salary:  0.0
+11:57:28,527 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  20,  departmentName:  Department99, average salary:  0.0
+11:57:28,527 DEBUG client.service.DepartmentServiceImplTest:  49 - Finish testGetList
+11:57:28,534 DEBUG client.service.DepartmentServiceImplTest:  63 - Start testDelete
+11:57:28,534 DEBUG     client.service.DepartmentServiceImpl:  87 - delete department by id : 3
+11:57:28,582 DEBUG client.service.DepartmentServiceImplTest:  65 - Finish testDelete
+11:57:28,586 DEBUG client.service.DepartmentServiceImplTest:  27 - Start testInsert
+11:57:28,587 DEBUG     client.service.DepartmentServiceImpl:  41 - create department :
+11:57:28,727 DEBUG     client.service.DepartmentServiceImpl:  43 - Department created successfully: Department - Id:  21,  departmentName:  New test Department, average salary:  0.0
+11:57:28,728 DEBUG client.service.DepartmentServiceImplTest:  33 - Finish testInsert
+11:57:28,733 DEBUG client.service.DepartmentServiceImplTest:  54 - Start testUpdate
+11:57:28,734 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 2
+11:57:28,799 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  2,  departmentName:  Test Department, average salary:  548.1111
+11:57:28,800 DEBUG     client.service.DepartmentServiceImpl:  77 - update department by id :
+11:57:28,914 DEBUG     client.service.DepartmentServiceImpl:  79 - Department update successfully: Department - Id:  2,  departmentName:  Test Department, average salary:  548.1111
+11:57:28,914 DEBUG client.service.DepartmentServiceImplTest:  58 - Finish testUpdate
+11:57:55,911 DEBUG   client.service.EmployeeServiceImplTest:  45 - Start testGet
+11:57:55,917 DEBUG       client.service.EmployeeServiceImpl:  61 - retrieve a employee by id : 1
+11:57:56,740 DEBUG       client.service.EmployeeServiceImpl:  63 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, Ð¬irthDate: 1989-01-17, salary: 150.0
+11:57:56,741 DEBUG   client.service.EmployeeServiceImplTest:  48 - Finish testGet
+11:57:56,753 DEBUG   client.service.EmployeeServiceImplTest:  53 - Start testGetList
+11:57:56,753 DEBUG       client.service.EmployeeServiceImpl:  73 - Testing retrieve all employees: 1
+11:57:56,833 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, Ð¬irthDate: 1989-01-17, salary: 150.0
+11:57:56,834 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  11,  departmentId:  1,  departmentName:  Department19, fullName: Makar, Ð¬irthDate: 1991-05-21, salary: 2500.0
+11:57:56,834 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  13,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, Ð¬irthDate: 2009-10-23, salary: 1050.0
+11:57:56,835 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  16,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, Ð¬irthDate: 2009-10-23, salary: 1050.0
+11:57:56,837 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  18,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, Ð¬irthDate: 2009-10-23, salary: 1050.0
+11:57:56,838 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  20,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, Ð¬irthDate: 2009-10-23, salary: 1050.0
+11:57:56,839 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  22,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, Ð¬irthDate: 2009-10-23, salary: 1050.0
+11:57:56,839 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  24,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, Ð¬irthDate: 2009-10-23, salary: 1050.0
+11:57:56,840 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  25,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, Ð¬irthDate: 2009-10-23, salary: 1050.0
+11:57:56,840 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  26,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, Ð¬irthDate: 2009-10-23, salary: 1050.0
+11:57:56,841 DEBUG   client.service.EmployeeServiceImplTest:  56 - Finish testGetList
+11:57:56,846 DEBUG   client.service.EmployeeServiceImplTest:  80 - Start testFindBetween
+11:57:56,850 DEBUG       client.service.EmployeeServiceImpl: 107 - find employee range : for range date: '23-12-1982' - '10-02-2011'
+11:57:56,931 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, Ð¬irthDate: 1989-01-17, salary: 150.0
+11:57:56,947 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  6,  departmentId:  2,  departmentName:  Test Department, fullName: Drozd, Ð¬irthDate: 1988-01-01, salary: 560.0
+11:57:56,948 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  8,  departmentId:  6,  departmentName:  Central department, fullName: Kiril, Ð¬irthDate: 1985-08-21, salary: 455.0
+11:57:56,948 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  9,  departmentId:  6,  departmentName:  Central department, fullName: Nikolai, Ð¬irthDate: 1985-08-23, salary: 789.0
+11:57:56,949 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  10,  departmentId:  4,  departmentName:  Asou, fullName: Max, Ð¬irthDate: 1994-07-20, salary: 990.0
+11:57:56,949 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  11,  departmentId:  1,  departmentName:  Department19, fullName: Makar, Ð¬irthDate: 1991-05-21, salary: 2500.0
+11:57:56,950 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  12,  departmentId:  2,  departmentName:  Test Department, fullName: Klarc, Ð¬irthDate: 1983-02-21, salary: 1850.0
+11:57:56,950 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  13,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, Ð¬irthDate: 2009-10-23, salary: 1050.0
+11:57:56,951 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  16,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, Ð¬irthDate: 2009-10-23, salary: 1050.0
+11:57:56,952 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  18,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, Ð¬irthDate: 2009-10-23, salary: 1050.0
+11:57:56,963 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  20,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, Ð¬irthDate: 2009-10-23, salary: 1050.0
+11:57:56,963 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  22,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, Ð¬irthDate: 2009-10-23, salary: 1050.0
+11:57:56,964 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  24,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, Ð¬irthDate: 2009-10-23, salary: 1050.0
+11:57:56,965 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  25,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, Ð¬irthDate: 2009-10-23, salary: 1050.0
+11:57:56,965 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  26,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, Ð¬irthDate: 2009-10-23, salary: 1050.0
+11:57:56,966 DEBUG   client.service.EmployeeServiceImplTest:  85 - Finish testFindBetween
+11:57:56,972 DEBUG   client.service.EmployeeServiceImplTest:  73 - Start testDelete
+11:57:56,972 DEBUG       client.service.EmployeeServiceImpl:  96 - delete employee by id : 3
+11:57:57,034 DEBUG   client.service.EmployeeServiceImplTest:  75 - Finish testDelete
+11:57:57,039 DEBUG   client.service.EmployeeServiceImplTest:  31 - Start testInsert
+11:57:57,040 DEBUG       client.service.EmployeeServiceImpl:  49 - create employee :
+11:57:57,257 DEBUG       client.service.EmployeeServiceImpl:  51 - Employee created successfully: Employee - Id:  27,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, Ð¬irthDate: 1982-02-13, salary: 378.0
+11:57:57,258 DEBUG   client.service.EmployeeServiceImplTest:  40 - Finish testInsert
+11:57:57,264 DEBUG   client.service.EmployeeServiceImplTest:  61 - Start testUpdate
+11:57:57,264 DEBUG       client.service.EmployeeServiceImpl:  61 - retrieve a employee by id : 5
+11:57:57,318 DEBUG       client.service.EmployeeServiceImpl:  63 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, Ð¬irthDate: 1982-11-10, salary: 255.0
+11:57:57,319 DEBUG       client.service.EmployeeServiceImpl:  86 - update employee by id :
+11:57:57,387 DEBUG       client.service.EmployeeServiceImpl:  88 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, Ð¬irthDate: 1985-08-21, salary: 255.0
+11:57:57,388 DEBUG   client.service.EmployeeServiceImplTest:  68 - Finish testUpdate
+11:58:56,193 DEBUG client.controller.EmployeeControllerTest:  81 - Start testGetEmployeeLIst
+11:58:56,436  INFO   client.controller.DepartmentController:  59 - Delete department
+11:58:56,443 DEBUG     client.service.DepartmentServiceImpl:  87 - delete department by id : 3
+11:58:56,920 DEBUG client.controller.EmployeeControllerTest:  89 - Finish testGetEmployeeLIst
+11:58:56,957 DEBUG client.controller.EmployeeControllerTest:  68 - Start testAddDepartment
+11:58:56,962  INFO   client.controller.DepartmentController:  46 - View form add new department
+11:58:56,995 DEBUG client.controller.EmployeeControllerTest:  76 - Finish testAddDepartment
+11:58:57,038 DEBUG client.controller.EmployeeControllerTest: 126 - Start testUpdateDepartment
+11:58:57,045  INFO   client.controller.DepartmentController: 101 - Update the editing existing department
+11:58:57,047 DEBUG     client.service.DepartmentServiceImpl:  77 - update department by id :
+11:58:57,620 DEBUG     client.service.DepartmentServiceImpl:  79 - Department update successfully: Department - Id:  1,  departmentName:  Department19, average salary:  null
+11:58:57,628 DEBUG client.controller.EmployeeControllerTest: 140 - Finish testUpdateDepartment
+11:58:57,673 DEBUG client.controller.EmployeeControllerTest:  94 - Start testInsertDepartment
+11:58:57,678  INFO   client.controller.DepartmentController:  71 - Insert new department
+11:58:57,679 DEBUG     client.service.DepartmentServiceImpl:  41 - create department :
+11:58:57,876 DEBUG     client.service.DepartmentServiceImpl:  43 - Department created successfully: Department - Id:  22,  departmentName:  Department99, average salary:  0.0
+11:58:57,889 DEBUG client.controller.EmployeeControllerTest: 107 - Finish testInsertDepartment
+11:58:58,020 DEBUG client.controller.EmployeeControllerTest: 112 - Start testEditDepartment
+11:58:58,026  INFO   client.controller.DepartmentController:  85 - View form editing new department
+11:58:58,028 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 1
+11:58:58,080 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1105.0
+11:58:58,089 DEBUG client.controller.EmployeeControllerTest: 121 - Finish testEditDepartment
+11:58:58,110 DEBUG client.controller.EmployeeControllerTest:  51 - Start testGetDepartmentLIst
+11:58:58,114 DEBUG     client.service.DepartmentServiceImpl:  64 - retrieve all departments:
+11:58:58,200 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1105.0
+11:58:58,201 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  2,  departmentName:  Test Department, average salary:  531.1
+11:58:58,202 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  4,  departmentName:  Asou, average salary:  1045.0
+11:58:58,203 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  5,  departmentName:  Testing, average salary:  0.0
+11:58:58,204 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  6,  departmentName:  Central department, average salary:  622.0
+11:58:58,204 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  7,  departmentName:  Department99, average salary:  0.0
+11:58:58,205 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  8,  departmentName:  New test Department, average salary:  0.0
+11:58:58,206 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  9,  departmentName:  New test Department, average salary:  0.0
+11:58:58,206 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  10,  departmentName:  New test Department, average salary:  0.0
+11:58:58,207 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  11,  departmentName:  New test Department, average salary:  0.0
+11:58:58,208 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  12,  departmentName:  Department99, average salary:  0.0
+11:58:58,209 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  13,  departmentName:  New test Department, average salary:  0.0
+11:58:58,209 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  14,  departmentName:  Department99, average salary:  0.0
+11:58:58,210 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  15,  departmentName:  New test Department, average salary:  0.0
+11:58:58,212 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  16,  departmentName:  Department99, average salary:  0.0
+11:58:58,213 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  17,  departmentName:  New test Department, average salary:  0.0
+11:58:58,214 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  18,  departmentName:  Department99, average salary:  0.0
+11:58:58,215 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  19,  departmentName:  New test Department, average salary:  0.0
+11:58:58,216 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  20,  departmentName:  Department99, average salary:  0.0
+11:58:58,218 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  21,  departmentName:  New test Department, average salary:  0.0
+11:58:58,219 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  22,  departmentName:  Department99, average salary:  0.0
+11:58:58,234 DEBUG client.controller.EmployeeControllerTest:  63 - Finish testGetDepartmentLIst
+11:58:58,291 DEBUG client.controller.EmployeeControllerTest: 112 - Start testDeleteEmployee
+11:58:58,310  INFO     client.controller.EmployeeController: 100 - Delete an existing employee in selecting department
+11:58:58,311 DEBUG       client.service.EmployeeServiceImpl:  96 - delete employee by id : 2
+11:58:58,365 DEBUG client.controller.EmployeeControllerTest: 121 - Finish testDeleteEmployee
+11:58:58,407 DEBUG client.controller.EmployeeControllerTest: 164 - Start testFindEmployee
+11:58:58,443  INFO     client.controller.EmployeeController: 151 - View table to show all employee in selecting department
+11:58:58,447 DEBUG       client.service.EmployeeServiceImpl: 107 - find employee range : for range date: '21-08-1985' - '21-08-1985'
+11:58:58,598 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, ÜirthDate: 1985-08-21, salary: 255.0
+11:58:58,599 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  8,  departmentId:  6,  departmentName:  Central department, fullName: Kiril, ÜirthDate: 1985-08-21, salary: 455.0
+11:58:58,660  INFO     client.controller.EmployeeController: 151 - View table to show all employee in selecting department
+11:58:58,662 DEBUG       client.service.EmployeeServiceImpl: 107 - find employee range : for range date: '21-08-1981' - '21-08-2015'
+11:58:58,772 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, ÜirthDate: 1989-01-17, salary: 150.0
+11:58:58,773 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, ÜirthDate: 1985-08-21, salary: 255.0
+11:58:58,774 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  6,  departmentId:  2,  departmentName:  Test Department, fullName: Drozd, ÜirthDate: 1988-01-01, salary: 560.0
+11:58:58,774 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  8,  departmentId:  6,  departmentName:  Central department, fullName: Kiril, ÜirthDate: 1985-08-21, salary: 455.0
+11:58:58,775 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  9,  departmentId:  6,  departmentName:  Central department, fullName: Nikolai, ÜirthDate: 1985-08-23, salary: 789.0
+11:58:58,777 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  10,  departmentId:  4,  departmentName:  Asou, fullName: Max, ÜirthDate: 1994-07-20, salary: 990.0
+11:58:58,779 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  11,  departmentId:  1,  departmentName:  Department19, fullName: Makar, ÜirthDate: 1991-05-21, salary: 2500.0
+11:58:58,780 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  12,  departmentId:  2,  departmentName:  Test Department, fullName: Klarc, ÜirthDate: 1983-02-21, salary: 1850.0
+11:58:58,781 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  13,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:58:58,782 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  14,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, ÜirthDate: 1982-02-13, salary: 378.0
+11:58:58,784 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  15,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, ÜirthDate: 1982-02-13, salary: 378.0
+11:58:58,785 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  16,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:58:58,786 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  17,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, ÜirthDate: 1982-02-13, salary: 378.0
+11:58:58,787 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  18,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:58:58,789 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  19,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, ÜirthDate: 1982-02-13, salary: 378.0
+11:58:58,790 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  20,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:58:58,791 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  21,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, ÜirthDate: 1982-02-13, salary: 378.0
+11:58:58,792 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  22,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:58:58,793 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  23,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, ÜirthDate: 1982-02-13, salary: 378.0
+11:58:58,794 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  24,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:58:58,795 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  25,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:58:58,797 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  26,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:58:58,798 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  27,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, ÜirthDate: 1982-02-13, salary: 378.0
+11:58:58,823  INFO     client.controller.EmployeeController: 151 - View table to show all employee in selecting department
+11:58:58,825 DEBUG       client.service.EmployeeServiceImpl: 107 - find employee range : for date: '21-08-1985'
+11:58:58,897 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, ÜirthDate: 1985-08-21, salary: 255.0
+11:58:58,897 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  8,  departmentId:  6,  departmentName:  Central department, fullName: Kiril, ÜirthDate: 1985-08-21, salary: 455.0
+11:58:58,906 DEBUG client.controller.EmployeeControllerTest: 202 - Finish testFindEmployee
+11:58:58,943 DEBUG client.controller.EmployeeControllerTest:  73 - Start testAddEmployee
+11:58:58,948  INFO     client.controller.EmployeeController:  66 - View form add new employee in selecting department
+11:58:58,949 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 1
+11:58:59,021 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1105.0
+11:58:59,038 DEBUG client.controller.EmployeeControllerTest:  83 - Finish testAddEmployee
+11:58:59,064 DEBUG client.controller.EmployeeControllerTest:  55 - Start testGetEmployeeLIst
+11:58:59,070  INFO     client.controller.EmployeeController:  46 - View table to show all employee in selecting department
+11:58:59,070 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 2
+11:58:59,134 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  2,  departmentName:  Test Department, average salary:  531.1
+11:58:59,134 DEBUG       client.service.EmployeeServiceImpl:  73 - Testing retrieve all employees: 2
+11:58:59,203 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, ÜirthDate: 1985-08-21, salary: 255.0
+11:58:59,204 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  6,  departmentId:  2,  departmentName:  Test Department, fullName: Drozd, ÜirthDate: 1988-01-01, salary: 560.0
+11:58:59,205 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  12,  departmentId:  2,  departmentName:  Test Department, fullName: Klarc, ÜirthDate: 1983-02-21, salary: 1850.0
+11:58:59,206 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  14,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, ÜirthDate: 1982-02-13, salary: 378.0
+11:58:59,207 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  15,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, ÜirthDate: 1982-02-13, salary: 378.0
+11:58:59,280 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  17,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, ÜirthDate: 1982-02-13, salary: 378.0
+11:58:59,281 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  19,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, ÜirthDate: 1982-02-13, salary: 378.0
+11:58:59,283 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  21,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, ÜirthDate: 1982-02-13, salary: 378.0
+11:58:59,284 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  23,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, ÜirthDate: 1982-02-13, salary: 378.0
+11:58:59,285 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  27,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, ÜirthDate: 1982-02-13, salary: 378.0
+11:58:59,304 DEBUG client.controller.EmployeeControllerTest:  68 - Finish testGetEmployeeLIst
+11:58:59,345 DEBUG client.controller.EmployeeControllerTest: 126 - Start testEditEmployee
+11:58:59,350  INFO     client.controller.EmployeeController: 117 - View form edit an existing employee in selecting department
+11:58:59,351 DEBUG       client.service.EmployeeServiceImpl:  61 - retrieve a employee by id : 1
+11:58:59,465 DEBUG       client.service.EmployeeServiceImpl:  63 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, ÜirthDate: 1989-01-17, salary: 150.0
+11:58:59,474 DEBUG client.controller.EmployeeControllerTest: 135 - Finish testEditEmployee
+11:58:59,499 DEBUG client.controller.EmployeeControllerTest: 140 - Start testUpdateEmployee
+11:58:59,507  INFO     client.controller.EmployeeController: 133 - Update the editing existing employee in selecting department
+11:58:59,508 DEBUG       client.service.EmployeeServiceImpl:  86 - update employee by id :
+11:58:59,614 DEBUG       client.service.EmployeeServiceImpl:  88 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  null, fullName: Edit Name, ÜirthDate: 1989-01-17, salary: 150.0
+11:58:59,615 DEBUG       client.service.EmployeeServiceImpl:  61 - retrieve a employee by id : 1
+11:58:59,676 DEBUG       client.service.EmployeeServiceImpl:  63 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, ÜirthDate: 1989-01-17, salary: 150.0
+11:58:59,685 DEBUG client.controller.EmployeeControllerTest: 159 - Finish testUpdateEmployee
+11:58:59,716 DEBUG client.controller.EmployeeControllerTest:  88 - Start testInsertEmployee
+11:58:59,726  INFO     client.controller.EmployeeController:  83 - Insert new employee in selecting department
+11:58:59,727 DEBUG       client.service.EmployeeServiceImpl:  49 - create employee :
+11:58:59,844 DEBUG       client.service.EmployeeServiceImpl:  51 - Employee created successfully: Employee - Id:  28,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:58:59,852 DEBUG client.controller.EmployeeControllerTest: 107 - Finish testInsertEmployee
+11:59:01,567 DEBUG client.service.DepartmentServiceImplTest:  38 - Start testGet
+11:59:01,571 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 1
+11:59:01,695 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1100.0
+11:59:01,697 DEBUG client.service.DepartmentServiceImplTest:  41 - Finish testGet
+11:59:01,707 DEBUG client.service.DepartmentServiceImplTest:  46 - Start testGetList
+11:59:01,708 DEBUG     client.service.DepartmentServiceImpl:  64 - retrieve all departments:
+11:59:01,792 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1100.0
+11:59:01,793 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  2,  departmentName:  Test Department, average salary:  531.1
+11:59:01,793 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  4,  departmentName:  Asou, average salary:  1045.0
+11:59:01,794 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  5,  departmentName:  Testing, average salary:  0.0
+11:59:01,794 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  6,  departmentName:  Central department, average salary:  622.0
+11:59:01,795 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  7,  departmentName:  Department99, average salary:  0.0
+11:59:01,795 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  8,  departmentName:  New test Department, average salary:  0.0
+11:59:01,796 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  9,  departmentName:  New test Department, average salary:  0.0
+11:59:01,796 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  10,  departmentName:  New test Department, average salary:  0.0
+11:59:01,797 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  11,  departmentName:  New test Department, average salary:  0.0
+11:59:01,797 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  12,  departmentName:  Department99, average salary:  0.0
+11:59:01,798 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  13,  departmentName:  New test Department, average salary:  0.0
+11:59:01,799 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  14,  departmentName:  Department99, average salary:  0.0
+11:59:01,799 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  15,  departmentName:  New test Department, average salary:  0.0
+11:59:01,800 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  16,  departmentName:  Department99, average salary:  0.0
+11:59:01,800 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  17,  departmentName:  New test Department, average salary:  0.0
+11:59:01,801 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  18,  departmentName:  Department99, average salary:  0.0
+11:59:01,801 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  19,  departmentName:  New test Department, average salary:  0.0
+11:59:01,802 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  20,  departmentName:  Department99, average salary:  0.0
+11:59:01,802 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  21,  departmentName:  New test Department, average salary:  0.0
+11:59:01,803 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  22,  departmentName:  Department99, average salary:  0.0
+11:59:01,804 DEBUG client.service.DepartmentServiceImplTest:  49 - Finish testGetList
+11:59:01,811 DEBUG client.service.DepartmentServiceImplTest:  63 - Start testDelete
+11:59:01,813 DEBUG     client.service.DepartmentServiceImpl:  87 - delete department by id : 3
+11:59:01,893 DEBUG client.service.DepartmentServiceImplTest:  65 - Finish testDelete
+11:59:01,899 DEBUG client.service.DepartmentServiceImplTest:  27 - Start testInsert
+11:59:01,900 DEBUG     client.service.DepartmentServiceImpl:  41 - create department :
+11:59:01,986 DEBUG     client.service.DepartmentServiceImpl:  43 - Department created successfully: Department - Id:  23,  departmentName:  New test Department, average salary:  0.0
+11:59:01,987 DEBUG client.service.DepartmentServiceImplTest:  33 - Finish testInsert
+11:59:01,993 DEBUG client.service.DepartmentServiceImplTest:  54 - Start testUpdate
+11:59:01,993 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 2
+11:59:02,043 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  2,  departmentName:  Test Department, average salary:  531.1
+11:59:02,044 DEBUG     client.service.DepartmentServiceImpl:  77 - update department by id :
+11:59:02,150 DEBUG     client.service.DepartmentServiceImpl:  79 - Department update successfully: Department - Id:  2,  departmentName:  Test Department, average salary:  531.1
+11:59:02,151 DEBUG client.service.DepartmentServiceImplTest:  58 - Finish testUpdate
+11:59:02,179 DEBUG   client.service.EmployeeServiceImplTest:  45 - Start testGet
+11:59:02,180 DEBUG       client.service.EmployeeServiceImpl:  61 - retrieve a employee by id : 1
+11:59:02,256 DEBUG       client.service.EmployeeServiceImpl:  63 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, ÜirthDate: 1989-01-17, salary: 150.0
+11:59:02,257 DEBUG   client.service.EmployeeServiceImplTest:  48 - Finish testGet
+11:59:02,263 DEBUG   client.service.EmployeeServiceImplTest:  53 - Start testGetList
+11:59:02,264 DEBUG       client.service.EmployeeServiceImpl:  73 - Testing retrieve all employees: 1
+11:59:02,336 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, ÜirthDate: 1989-01-17, salary: 150.0
+11:59:02,337 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  11,  departmentId:  1,  departmentName:  Department19, fullName: Makar, ÜirthDate: 1991-05-21, salary: 2500.0
+11:59:02,338 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  13,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:59:02,338 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  16,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:59:02,339 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  18,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:59:02,340 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  20,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:59:02,340 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  22,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:59:02,341 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  24,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:59:02,342 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  25,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:59:02,342 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  26,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:59:02,343 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  28,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:59:02,344 DEBUG   client.service.EmployeeServiceImplTest:  56 - Finish testGetList
+11:59:02,350 DEBUG   client.service.EmployeeServiceImplTest:  80 - Start testFindBetween
+11:59:02,352 DEBUG       client.service.EmployeeServiceImpl: 107 - find employee range : for range date: '23-12-1982' - '10-02-2011'
+11:59:02,524 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, ÜirthDate: 1989-01-17, salary: 150.0
+11:59:02,525 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, ÜirthDate: 1985-08-21, salary: 255.0
+11:59:02,525 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  6,  departmentId:  2,  departmentName:  Test Department, fullName: Drozd, ÜirthDate: 1988-01-01, salary: 560.0
+11:59:02,526 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  8,  departmentId:  6,  departmentName:  Central department, fullName: Kiril, ÜirthDate: 1985-08-21, salary: 455.0
+11:59:02,527 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  9,  departmentId:  6,  departmentName:  Central department, fullName: Nikolai, ÜirthDate: 1985-08-23, salary: 789.0
+11:59:02,527 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  10,  departmentId:  4,  departmentName:  Asou, fullName: Max, ÜirthDate: 1994-07-20, salary: 990.0
+11:59:02,528 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  11,  departmentId:  1,  departmentName:  Department19, fullName: Makar, ÜirthDate: 1991-05-21, salary: 2500.0
+11:59:02,529 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  12,  departmentId:  2,  departmentName:  Test Department, fullName: Klarc, ÜirthDate: 1983-02-21, salary: 1850.0
+11:59:02,529 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  13,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:59:02,530 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  16,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:59:02,531 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  18,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:59:02,531 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  20,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:59:02,542 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  22,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:59:02,543 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  24,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:59:02,544 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  25,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:59:02,545 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  26,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:59:02,545 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  28,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, ÜirthDate: 2009-10-23, salary: 1050.0
+11:59:02,546 DEBUG   client.service.EmployeeServiceImplTest:  85 - Finish testFindBetween
+11:59:02,569 DEBUG   client.service.EmployeeServiceImplTest:  73 - Start testDelete
+11:59:02,570 DEBUG       client.service.EmployeeServiceImpl:  96 - delete employee by id : 3
+11:59:02,639 DEBUG   client.service.EmployeeServiceImplTest:  75 - Finish testDelete
+11:59:02,644 DEBUG   client.service.EmployeeServiceImplTest:  31 - Start testInsert
+11:59:02,645 DEBUG       client.service.EmployeeServiceImpl:  49 - create employee :
+11:59:02,742 DEBUG       client.service.EmployeeServiceImpl:  51 - Employee created successfully: Employee - Id:  29,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, ÜirthDate: 1982-02-13, salary: 378.0
+11:59:02,742 DEBUG   client.service.EmployeeServiceImplTest:  40 - Finish testInsert
+11:59:02,750 DEBUG   client.service.EmployeeServiceImplTest:  61 - Start testUpdate
+11:59:02,751 DEBUG       client.service.EmployeeServiceImpl:  61 - retrieve a employee by id : 5
+11:59:02,812 DEBUG       client.service.EmployeeServiceImpl:  63 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, ÜirthDate: 1985-08-21, salary: 255.0
+11:59:02,813 DEBUG       client.service.EmployeeServiceImpl:  86 - update employee by id :
+11:59:03,006 DEBUG       client.service.EmployeeServiceImpl:  88 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, ÜirthDate: 1985-08-21, salary: 255.0
+11:59:03,007 DEBUG   client.service.EmployeeServiceImplTest:  68 - Finish testUpdate
+12:01:29,476 DEBUG client.controller.EmployeeControllerTest:  81 - Start testGetEmployeeLIst
+12:01:29,743  INFO   client.controller.DepartmentController:  59 - Delete department
+12:01:29,757 DEBUG     client.service.DepartmentServiceImpl:  87 - delete department by id : 3
+12:01:30,637 DEBUG client.controller.EmployeeControllerTest:  89 - Finish testGetEmployeeLIst
+12:01:30,701 DEBUG client.controller.EmployeeControllerTest:  68 - Start testAddDepartment
+12:01:30,710  INFO   client.controller.DepartmentController:  46 - View form add new department
+12:01:30,777 DEBUG client.controller.EmployeeControllerTest:  76 - Finish testAddDepartment
+12:01:30,851 DEBUG client.controller.EmployeeControllerTest: 126 - Start testUpdateDepartment
+12:01:30,861  INFO   client.controller.DepartmentController: 101 - Update the editing existing department
+12:01:30,861 DEBUG     client.service.DepartmentServiceImpl:  77 - update department by id :
+12:01:31,436 DEBUG     client.service.DepartmentServiceImpl:  79 - Department update successfully: Department - Id:  1,  departmentName:  Department19, average salary:  null
+12:01:31,447 DEBUG client.controller.EmployeeControllerTest: 140 - Finish testUpdateDepartment
+12:01:31,513 DEBUG client.controller.EmployeeControllerTest:  94 - Start testInsertDepartment
+12:01:31,518  INFO   client.controller.DepartmentController:  71 - Insert new department
+12:01:31,520 DEBUG     client.service.DepartmentServiceImpl:  41 - create department :
+12:01:31,757 DEBUG     client.service.DepartmentServiceImpl:  43 - Department created successfully: Department - Id:  24,  departmentName:  Department99, average salary:  0.0
+12:01:31,785 DEBUG client.controller.EmployeeControllerTest: 107 - Finish testInsertDepartment
+12:01:31,844 DEBUG client.controller.EmployeeControllerTest: 112 - Start testEditDepartment
+12:01:31,849  INFO   client.controller.DepartmentController:  85 - View form editing new department
+12:01:31,850 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 1
+12:01:31,976 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1100.0
+12:01:31,985 DEBUG client.controller.EmployeeControllerTest: 121 - Finish testEditDepartment
+12:01:32,010 DEBUG client.controller.EmployeeControllerTest:  51 - Start testGetDepartmentLIst
+12:01:32,014 DEBUG     client.service.DepartmentServiceImpl:  64 - retrieve all departments:
+12:01:32,229 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1100.0
+12:01:32,230 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  2,  departmentName:  Test Department, average salary:  517.1818
+12:01:32,230 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  4,  departmentName:  Asou, average salary:  1045.0
+12:01:32,231 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  5,  departmentName:  Testing, average salary:  0.0
+12:01:32,232 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  6,  departmentName:  Central department, average salary:  622.0
+12:01:32,233 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  7,  departmentName:  Department99, average salary:  0.0
+12:01:32,234 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  8,  departmentName:  New test Department, average salary:  0.0
+12:01:32,235 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  9,  departmentName:  New test Department, average salary:  0.0
+12:01:32,235 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  10,  departmentName:  New test Department, average salary:  0.0
+12:01:32,236 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  11,  departmentName:  New test Department, average salary:  0.0
+12:01:32,237 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  12,  departmentName:  Department99, average salary:  0.0
+12:01:32,237 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  13,  departmentName:  New test Department, average salary:  0.0
+12:01:32,238 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  14,  departmentName:  Department99, average salary:  0.0
+12:01:32,239 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  15,  departmentName:  New test Department, average salary:  0.0
+12:01:32,239 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  16,  departmentName:  Department99, average salary:  0.0
+12:01:32,240 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  17,  departmentName:  New test Department, average salary:  0.0
+12:01:32,240 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  18,  departmentName:  Department99, average salary:  0.0
+12:01:32,241 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  19,  departmentName:  New test Department, average salary:  0.0
+12:01:32,242 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  20,  departmentName:  Department99, average salary:  0.0
+12:01:32,243 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  21,  departmentName:  New test Department, average salary:  0.0
+12:01:32,245 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  22,  departmentName:  Department99, average salary:  0.0
+12:01:32,246 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  23,  departmentName:  New test Department, average salary:  0.0
+12:01:32,247 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  24,  departmentName:  Department99, average salary:  0.0
+12:01:32,267 DEBUG client.controller.EmployeeControllerTest:  63 - Finish testGetDepartmentLIst
+12:01:32,325 DEBUG client.controller.EmployeeControllerTest: 112 - Start testDeleteEmployee
+12:01:32,343  INFO     client.controller.EmployeeController: 100 - Delete an existing employee in selecting department
+12:01:32,345 DEBUG       client.service.EmployeeServiceImpl:  96 - delete employee by id : 2
+12:01:32,454 DEBUG client.controller.EmployeeControllerTest: 121 - Finish testDeleteEmployee
+12:01:32,494 DEBUG client.controller.EmployeeControllerTest: 164 - Start testFindEmployee
+12:01:32,532  INFO     client.controller.EmployeeController: 151 - View table to show all employee in selecting department
+12:01:32,536 DEBUG       client.service.EmployeeServiceImpl: 107 - find employee range : for range date: '21-08-1985' - '21-08-1985'
+12:01:32,782 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, birthDate: 1985-08-21, salary: 255.0
+12:01:32,783 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  8,  departmentId:  6,  departmentName:  Central department, fullName: Kiril, birthDate: 1985-08-21, salary: 455.0
+12:01:32,822  INFO     client.controller.EmployeeController: 151 - View table to show all employee in selecting department
+12:01:32,823 DEBUG       client.service.EmployeeServiceImpl: 107 - find employee range : for range date: '21-08-1981' - '21-08-2015'
+12:01:32,982 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:01:32,983 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, birthDate: 1985-08-21, salary: 255.0
+12:01:32,984 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  6,  departmentId:  2,  departmentName:  Test Department, fullName: Drozd, birthDate: 1988-01-01, salary: 560.0
+12:01:32,984 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  8,  departmentId:  6,  departmentName:  Central department, fullName: Kiril, birthDate: 1985-08-21, salary: 455.0
+12:01:32,985 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  9,  departmentId:  6,  departmentName:  Central department, fullName: Nikolai, birthDate: 1985-08-23, salary: 789.0
+12:01:32,987 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  10,  departmentId:  4,  departmentName:  Asou, fullName: Max, birthDate: 1994-07-20, salary: 990.0
+12:01:32,988 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  11,  departmentId:  1,  departmentName:  Department19, fullName: Makar, birthDate: 1991-05-21, salary: 2500.0
+12:01:32,989 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  12,  departmentId:  2,  departmentName:  Test Department, fullName: Klarc, birthDate: 1983-02-21, salary: 1850.0
+12:01:32,989 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  13,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:32,990 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  14,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:01:32,991 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  15,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:01:32,992 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  16,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:32,993 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  17,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:01:32,994 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  18,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:32,998 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  19,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:01:32,999 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  20,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:33,000 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  21,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:01:33,001 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  22,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:33,002 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  23,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:01:33,003 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  24,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:33,003 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  25,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:33,004 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  26,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:33,005 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  27,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:01:33,006 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  28,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:33,007 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  29,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:01:33,024  INFO     client.controller.EmployeeController: 151 - View table to show all employee in selecting department
+12:01:33,026 DEBUG       client.service.EmployeeServiceImpl: 107 - find employee range : for date: '21-08-1985'
+12:01:33,089 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, birthDate: 1985-08-21, salary: 255.0
+12:01:33,090 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  8,  departmentId:  6,  departmentName:  Central department, fullName: Kiril, birthDate: 1985-08-21, salary: 455.0
+12:01:33,099 DEBUG client.controller.EmployeeControllerTest: 202 - Finish testFindEmployee
+12:01:33,127 DEBUG client.controller.EmployeeControllerTest:  73 - Start testAddEmployee
+12:01:33,136  INFO     client.controller.EmployeeController:  66 - View form add new employee in selecting department
+12:01:33,137 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 1
+12:01:33,231 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1100.0
+12:01:33,249 DEBUG client.controller.EmployeeControllerTest:  83 - Finish testAddEmployee
+12:01:33,312 DEBUG client.controller.EmployeeControllerTest:  55 - Start testGetEmployeeLIst
+12:01:33,318  INFO     client.controller.EmployeeController:  46 - View table to show all employee in selecting department
+12:01:33,318 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 2
+12:01:33,395 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  2,  departmentName:  Test Department, average salary:  517.1818
+12:01:33,395 DEBUG       client.service.EmployeeServiceImpl:  73 - Testing retrieve all employees: 2
+12:01:33,474 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, birthDate: 1985-08-21, salary: 255.0
+12:01:33,474 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  6,  departmentId:  2,  departmentName:  Test Department, fullName: Drozd, birthDate: 1988-01-01, salary: 560.0
+12:01:33,475 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  12,  departmentId:  2,  departmentName:  Test Department, fullName: Klarc, birthDate: 1983-02-21, salary: 1850.0
+12:01:33,476 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  14,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:01:33,522 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  15,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:01:33,529 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  17,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:01:33,530 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  19,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:01:33,531 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  21,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:01:33,532 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  23,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:01:33,534 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  27,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:01:33,535 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  29,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:01:33,556 DEBUG client.controller.EmployeeControllerTest:  68 - Finish testGetEmployeeLIst
+12:01:33,588 DEBUG client.controller.EmployeeControllerTest: 126 - Start testEditEmployee
+12:01:33,593  INFO     client.controller.EmployeeController: 117 - View form edit an existing employee in selecting department
+12:01:33,601 DEBUG       client.service.EmployeeServiceImpl:  61 - retrieve a employee by id : 1
+12:01:33,673 DEBUG       client.service.EmployeeServiceImpl:  63 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:01:33,683 DEBUG client.controller.EmployeeControllerTest: 135 - Finish testEditEmployee
+12:01:33,712 DEBUG client.controller.EmployeeControllerTest: 140 - Start testUpdateEmployee
+12:01:33,719  INFO     client.controller.EmployeeController: 133 - Update the editing existing employee in selecting department
+12:01:33,721 DEBUG       client.service.EmployeeServiceImpl:  86 - update employee by id :
+12:01:33,841 DEBUG       client.service.EmployeeServiceImpl:  88 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  null, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:01:33,842 DEBUG       client.service.EmployeeServiceImpl:  61 - retrieve a employee by id : 1
+12:01:33,911 DEBUG       client.service.EmployeeServiceImpl:  63 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:01:33,928 DEBUG client.controller.EmployeeControllerTest: 159 - Finish testUpdateEmployee
+12:01:33,971 DEBUG client.controller.EmployeeControllerTest:  88 - Start testInsertEmployee
+12:01:33,977  INFO     client.controller.EmployeeController:  83 - Insert new employee in selecting department
+12:01:33,978 DEBUG       client.service.EmployeeServiceImpl:  49 - create employee :
+12:01:34,152 DEBUG       client.service.EmployeeServiceImpl:  51 - Employee created successfully: Employee - Id:  30,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:34,162 DEBUG client.controller.EmployeeControllerTest: 107 - Finish testInsertEmployee
+12:01:36,053 DEBUG client.service.DepartmentServiceImplTest:  38 - Start testGet
+12:01:36,054 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 1
+12:01:36,157 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1095.8333
+12:01:36,158 DEBUG client.service.DepartmentServiceImplTest:  41 - Finish testGet
+12:01:36,165 DEBUG client.service.DepartmentServiceImplTest:  46 - Start testGetList
+12:01:36,165 DEBUG     client.service.DepartmentServiceImpl:  64 - retrieve all departments:
+12:01:36,234 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1095.8333
+12:01:36,234 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  2,  departmentName:  Test Department, average salary:  517.1818
+12:01:36,235 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  4,  departmentName:  Asou, average salary:  1045.0
+12:01:36,236 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  5,  departmentName:  Testing, average salary:  0.0
+12:01:36,236 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  6,  departmentName:  Central department, average salary:  622.0
+12:01:36,237 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  7,  departmentName:  Department99, average salary:  0.0
+12:01:36,237 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  8,  departmentName:  New test Department, average salary:  0.0
+12:01:36,238 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  9,  departmentName:  New test Department, average salary:  0.0
+12:01:36,238 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  10,  departmentName:  New test Department, average salary:  0.0
+12:01:36,239 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  11,  departmentName:  New test Department, average salary:  0.0
+12:01:36,239 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  12,  departmentName:  Department99, average salary:  0.0
+12:01:36,240 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  13,  departmentName:  New test Department, average salary:  0.0
+12:01:36,240 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  14,  departmentName:  Department99, average salary:  0.0
+12:01:36,241 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  15,  departmentName:  New test Department, average salary:  0.0
+12:01:36,242 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  16,  departmentName:  Department99, average salary:  0.0
+12:01:36,242 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  17,  departmentName:  New test Department, average salary:  0.0
+12:01:36,244 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  18,  departmentName:  Department99, average salary:  0.0
+12:01:36,249 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  19,  departmentName:  New test Department, average salary:  0.0
+12:01:36,250 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  20,  departmentName:  Department99, average salary:  0.0
+12:01:36,251 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  21,  departmentName:  New test Department, average salary:  0.0
+12:01:36,251 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  22,  departmentName:  Department99, average salary:  0.0
+12:01:36,252 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  23,  departmentName:  New test Department, average salary:  0.0
+12:01:36,252 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  24,  departmentName:  Department99, average salary:  0.0
+12:01:36,253 DEBUG client.service.DepartmentServiceImplTest:  49 - Finish testGetList
+12:01:36,260 DEBUG client.service.DepartmentServiceImplTest:  63 - Start testDelete
+12:01:36,261 DEBUG     client.service.DepartmentServiceImpl:  87 - delete department by id : 3
+12:01:36,306 DEBUG client.service.DepartmentServiceImplTest:  65 - Finish testDelete
+12:01:36,312 DEBUG client.service.DepartmentServiceImplTest:  27 - Start testInsert
+12:01:36,313 DEBUG     client.service.DepartmentServiceImpl:  41 - create department :
+12:01:36,401 DEBUG     client.service.DepartmentServiceImpl:  43 - Department created successfully: Department - Id:  25,  departmentName:  New test Department, average salary:  0.0
+12:01:36,401 DEBUG client.service.DepartmentServiceImplTest:  33 - Finish testInsert
+12:01:36,407 DEBUG client.service.DepartmentServiceImplTest:  54 - Start testUpdate
+12:01:36,410 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 2
+12:01:36,479 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  2,  departmentName:  Test Department, average salary:  517.1818
+12:01:36,480 DEBUG     client.service.DepartmentServiceImpl:  77 - update department by id :
+12:01:36,549 DEBUG     client.service.DepartmentServiceImpl:  79 - Department update successfully: Department - Id:  2,  departmentName:  Test Department, average salary:  517.1818
+12:01:36,550 DEBUG client.service.DepartmentServiceImplTest:  58 - Finish testUpdate
+12:01:36,578 DEBUG   client.service.EmployeeServiceImplTest:  45 - Start testGet
+12:01:36,579 DEBUG       client.service.EmployeeServiceImpl:  61 - retrieve a employee by id : 1
+12:01:36,685 DEBUG       client.service.EmployeeServiceImpl:  63 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:01:36,686 DEBUG   client.service.EmployeeServiceImplTest:  48 - Finish testGet
+12:01:36,693 DEBUG   client.service.EmployeeServiceImplTest:  53 - Start testGetList
+12:01:36,694 DEBUG       client.service.EmployeeServiceImpl:  73 - Testing retrieve all employees: 1
+12:01:36,771 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:01:36,771 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  11,  departmentId:  1,  departmentName:  Department19, fullName: Makar, birthDate: 1991-05-21, salary: 2500.0
+12:01:36,772 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  13,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,773 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  16,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,774 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  18,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,774 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  20,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,775 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  22,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,776 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  24,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,776 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  25,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,777 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  26,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,778 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  28,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,779 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  30,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,779 DEBUG   client.service.EmployeeServiceImplTest:  56 - Finish testGetList
+12:01:36,786 DEBUG   client.service.EmployeeServiceImplTest:  80 - Start testFindBetween
+12:01:36,797 DEBUG       client.service.EmployeeServiceImpl: 107 - find employee range : for range date: '23-12-1982' - '10-02-2011'
+12:01:36,915 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:01:36,916 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, birthDate: 1985-08-21, salary: 255.0
+12:01:36,917 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  6,  departmentId:  2,  departmentName:  Test Department, fullName: Drozd, birthDate: 1988-01-01, salary: 560.0
+12:01:36,917 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  8,  departmentId:  6,  departmentName:  Central department, fullName: Kiril, birthDate: 1985-08-21, salary: 455.0
+12:01:36,918 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  9,  departmentId:  6,  departmentName:  Central department, fullName: Nikolai, birthDate: 1985-08-23, salary: 789.0
+12:01:36,919 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  10,  departmentId:  4,  departmentName:  Asou, fullName: Max, birthDate: 1994-07-20, salary: 990.0
+12:01:36,920 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  11,  departmentId:  1,  departmentName:  Department19, fullName: Makar, birthDate: 1991-05-21, salary: 2500.0
+12:01:36,920 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  12,  departmentId:  2,  departmentName:  Test Department, fullName: Klarc, birthDate: 1983-02-21, salary: 1850.0
+12:01:36,921 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  13,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,933 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  16,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,933 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  18,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,934 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  20,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,935 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  22,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,936 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  24,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,938 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  25,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,939 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  26,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,940 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  28,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,940 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  30,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:01:36,941 DEBUG   client.service.EmployeeServiceImplTest:  85 - Finish testFindBetween
+12:01:36,959 DEBUG   client.service.EmployeeServiceImplTest:  73 - Start testDelete
+12:01:36,959 DEBUG       client.service.EmployeeServiceImpl:  96 - delete employee by id : 3
+12:01:37,009 DEBUG   client.service.EmployeeServiceImplTest:  75 - Finish testDelete
+12:01:37,015 DEBUG   client.service.EmployeeServiceImplTest:  31 - Start testInsert
+12:01:37,016 DEBUG       client.service.EmployeeServiceImpl:  49 - create employee :
+12:01:37,098 DEBUG       client.service.EmployeeServiceImpl:  51 - Employee created successfully: Employee - Id:  31,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:01:37,099 DEBUG   client.service.EmployeeServiceImplTest:  40 - Finish testInsert
+12:01:37,105 DEBUG   client.service.EmployeeServiceImplTest:  61 - Start testUpdate
+12:01:37,106 DEBUG       client.service.EmployeeServiceImpl:  61 - retrieve a employee by id : 5
+12:01:37,175 DEBUG       client.service.EmployeeServiceImpl:  63 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, birthDate: 1985-08-21, salary: 255.0
+12:01:37,176 DEBUG       client.service.EmployeeServiceImpl:  86 - update employee by id :
+12:01:37,246 DEBUG       client.service.EmployeeServiceImpl:  88 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, birthDate: 1985-08-21, salary: 255.0
+12:01:37,246 DEBUG   client.service.EmployeeServiceImplTest:  68 - Finish testUpdate
+12:03:09,160 DEBUG client.controller.EmployeeControllerTest:  81 - Start testGetEmployeeLIst
+12:03:09,418  INFO   client.controller.DepartmentController:  59 - Delete department
+12:03:09,424 DEBUG     client.service.DepartmentServiceImpl:  87 - delete department by id : 3
+12:03:10,187 DEBUG client.controller.EmployeeControllerTest:  89 - Finish testGetEmployeeLIst
+12:03:10,236 DEBUG client.controller.EmployeeControllerTest:  68 - Start testAddDepartment
+12:03:10,246  INFO   client.controller.DepartmentController:  46 - View form add new department
+12:03:10,291 DEBUG client.controller.EmployeeControllerTest:  76 - Finish testAddDepartment
+12:03:10,333 DEBUG client.controller.EmployeeControllerTest: 126 - Start testUpdateDepartment
+12:03:10,342  INFO   client.controller.DepartmentController: 101 - Update the editing existing department
+12:03:10,343 DEBUG     client.service.DepartmentServiceImpl:  77 - update department by id :
+12:03:10,769 DEBUG     client.service.DepartmentServiceImpl:  79 - Department update successfully: Department - Id:  1,  departmentName:  Department19, average salary:  null
+12:03:10,777 DEBUG client.controller.EmployeeControllerTest: 140 - Finish testUpdateDepartment
+12:03:10,844 DEBUG client.controller.EmployeeControllerTest:  94 - Start testInsertDepartment
+12:03:10,849  INFO   client.controller.DepartmentController:  71 - Insert new department
+12:03:10,849 DEBUG     client.service.DepartmentServiceImpl:  41 - create department :
+12:03:11,127 DEBUG     client.service.DepartmentServiceImpl:  43 - Department created successfully: Department - Id:  26,  departmentName:  Department99, average salary:  0.0
+12:03:11,155 DEBUG client.controller.EmployeeControllerTest: 107 - Finish testInsertDepartment
+12:03:11,237 DEBUG client.controller.EmployeeControllerTest: 112 - Start testEditDepartment
+12:03:11,242  INFO   client.controller.DepartmentController:  85 - View form editing new department
+12:03:11,243 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 1
+12:03:11,344 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1095.8333
+12:03:11,353 DEBUG client.controller.EmployeeControllerTest: 121 - Finish testEditDepartment
+12:03:11,381 DEBUG client.controller.EmployeeControllerTest:  51 - Start testGetDepartmentLIst
+12:03:11,386 DEBUG     client.service.DepartmentServiceImpl:  64 - retrieve all departments:
+12:03:11,482 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1095.8333
+12:03:11,483 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  2,  departmentName:  Test Department, average salary:  505.5833
+12:03:11,483 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  4,  departmentName:  Asou, average salary:  1045.0
+12:03:11,484 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  5,  departmentName:  Testing, average salary:  0.0
+12:03:11,485 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  6,  departmentName:  Central department, average salary:  622.0
+12:03:11,485 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  7,  departmentName:  Department99, average salary:  0.0
+12:03:11,486 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  8,  departmentName:  New test Department, average salary:  0.0
+12:03:11,487 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  9,  departmentName:  New test Department, average salary:  0.0
+12:03:11,487 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  10,  departmentName:  New test Department, average salary:  0.0
+12:03:11,488 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  11,  departmentName:  New test Department, average salary:  0.0
+12:03:11,489 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  12,  departmentName:  Department99, average salary:  0.0
+12:03:11,489 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  13,  departmentName:  New test Department, average salary:  0.0
+12:03:11,490 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  14,  departmentName:  Department99, average salary:  0.0
+12:03:11,491 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  15,  departmentName:  New test Department, average salary:  0.0
+12:03:11,491 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  16,  departmentName:  Department99, average salary:  0.0
+12:03:11,492 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  17,  departmentName:  New test Department, average salary:  0.0
+12:03:11,493 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  18,  departmentName:  Department99, average salary:  0.0
+12:03:11,496 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  19,  departmentName:  New test Department, average salary:  0.0
+12:03:11,496 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  20,  departmentName:  Department99, average salary:  0.0
+12:03:11,497 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  21,  departmentName:  New test Department, average salary:  0.0
+12:03:11,498 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  22,  departmentName:  Department99, average salary:  0.0
+12:03:11,499 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  23,  departmentName:  New test Department, average salary:  0.0
+12:03:11,499 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  24,  departmentName:  Department99, average salary:  0.0
+12:03:11,500 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  25,  departmentName:  New test Department, average salary:  0.0
+12:03:11,501 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  26,  departmentName:  Department99, average salary:  0.0
+12:03:11,511 DEBUG client.controller.EmployeeControllerTest:  63 - Finish testGetDepartmentLIst
+12:03:11,573 DEBUG client.controller.EmployeeControllerTest: 112 - Start testDeleteEmployee
+12:03:11,589  INFO     client.controller.EmployeeController: 100 - Delete an existing employee in selecting department
+12:03:11,590 DEBUG       client.service.EmployeeServiceImpl:  96 - delete employee by id : 2
+12:03:11,752 DEBUG client.controller.EmployeeControllerTest: 121 - Finish testDeleteEmployee
+12:03:11,824 DEBUG client.controller.EmployeeControllerTest: 164 - Start testFindEmployee
+12:03:11,905  INFO     client.controller.EmployeeController: 151 - View table to show all employee in selecting department
+12:03:11,910 DEBUG       client.service.EmployeeServiceImpl: 107 - find employee range : for range date: '21-08-1985' - '21-08-1985'
+12:03:12,099 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, birthDate: 1985-08-21, salary: 255.0
+12:03:12,100 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  8,  departmentId:  6,  departmentName:  Central department, fullName: Kiril, birthDate: 1985-08-21, salary: 455.0
+12:03:12,140  INFO     client.controller.EmployeeController: 151 - View table to show all employee in selecting department
+12:03:12,142 DEBUG       client.service.EmployeeServiceImpl: 107 - find employee range : for range date: '21-08-1981' - '21-08-2015'
+12:03:12,264 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:03:12,265 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, birthDate: 1985-08-21, salary: 255.0
+12:03:12,266 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  6,  departmentId:  2,  departmentName:  Test Department, fullName: Drozd, birthDate: 1988-01-01, salary: 560.0
+12:03:12,267 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  8,  departmentId:  6,  departmentName:  Central department, fullName: Kiril, birthDate: 1985-08-21, salary: 455.0
+12:03:12,267 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  9,  departmentId:  6,  departmentName:  Central department, fullName: Nikolai, birthDate: 1985-08-23, salary: 789.0
+12:03:12,268 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  10,  departmentId:  4,  departmentName:  Asou, fullName: Max, birthDate: 1994-07-20, salary: 990.0
+12:03:12,269 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  11,  departmentId:  1,  departmentName:  Department19, fullName: Makar, birthDate: 1991-05-21, salary: 2500.0
+12:03:12,270 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  12,  departmentId:  2,  departmentName:  Test Department, fullName: Klarc, birthDate: 1983-02-21, salary: 1850.0
+12:03:12,271 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  13,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:12,272 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  14,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:12,272 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  15,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:12,273 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  16,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:12,274 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  17,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:12,275 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  18,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:12,276 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  19,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:12,277 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  20,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:12,277 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  21,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:12,278 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  22,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:12,279 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  23,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:12,280 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  24,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:12,281 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  25,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:12,281 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  26,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:12,283 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  27,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:12,284 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  28,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:12,285 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  29,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:12,286 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  30,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:12,287 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  31,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:12,310  INFO     client.controller.EmployeeController: 151 - View table to show all employee in selecting department
+12:03:12,312 DEBUG       client.service.EmployeeServiceImpl: 107 - find employee range : for date: '21-08-1985'
+12:03:12,388 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, birthDate: 1985-08-21, salary: 255.0
+12:03:12,389 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  8,  departmentId:  6,  departmentName:  Central department, fullName: Kiril, birthDate: 1985-08-21, salary: 455.0
+12:03:12,409 DEBUG client.controller.EmployeeControllerTest: 202 - Finish testFindEmployee
+12:03:12,438 DEBUG client.controller.EmployeeControllerTest:  73 - Start testAddEmployee
+12:03:12,444  INFO     client.controller.EmployeeController:  66 - View form add new employee in selecting department
+12:03:12,445 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 1
+12:03:12,556 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1095.8333
+12:03:12,596 DEBUG client.controller.EmployeeControllerTest:  83 - Finish testAddEmployee
+12:03:12,641 DEBUG client.controller.EmployeeControllerTest:  55 - Start testGetEmployeeLIst
+12:03:12,648  INFO     client.controller.EmployeeController:  46 - View table to show all employee in selecting department
+12:03:12,649 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 2
+12:03:12,746 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  2,  departmentName:  Test Department, average salary:  505.5833
+12:03:12,747 DEBUG       client.service.EmployeeServiceImpl:  73 - Testing retrieve all employees: 2
+12:03:12,834 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, birthDate: 1985-08-21, salary: 255.0
+12:03:12,835 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  6,  departmentId:  2,  departmentName:  Test Department, fullName: Drozd, birthDate: 1988-01-01, salary: 560.0
+12:03:12,852 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  12,  departmentId:  2,  departmentName:  Test Department, fullName: Klarc, birthDate: 1983-02-21, salary: 1850.0
+12:03:12,853 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  14,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:12,854 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  15,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:12,855 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  17,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:12,855 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  19,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:12,856 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  21,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:12,857 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  23,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:12,858 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  27,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:12,859 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  29,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:12,859 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  31,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:12,888 DEBUG client.controller.EmployeeControllerTest:  68 - Finish testGetEmployeeLIst
+12:03:12,964 DEBUG client.controller.EmployeeControllerTest: 126 - Start testEditEmployee
+12:03:12,967  INFO     client.controller.EmployeeController: 117 - View form edit an existing employee in selecting department
+12:03:12,968 DEBUG       client.service.EmployeeServiceImpl:  61 - retrieve a employee by id : 1
+12:03:13,073 DEBUG       client.service.EmployeeServiceImpl:  63 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:03:13,082 DEBUG client.controller.EmployeeControllerTest: 135 - Finish testEditEmployee
+12:03:13,127 DEBUG client.controller.EmployeeControllerTest: 140 - Start testUpdateEmployee
+12:03:13,135  INFO     client.controller.EmployeeController: 133 - Update the editing existing employee in selecting department
+12:03:13,136 DEBUG       client.service.EmployeeServiceImpl:  86 - update employee by id :
+12:03:13,283 DEBUG       client.service.EmployeeServiceImpl:  88 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  null, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:03:13,284 DEBUG       client.service.EmployeeServiceImpl:  61 - retrieve a employee by id : 1
+12:03:13,344 DEBUG       client.service.EmployeeServiceImpl:  63 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:03:13,355 DEBUG client.controller.EmployeeControllerTest: 159 - Finish testUpdateEmployee
+12:03:13,384 DEBUG client.controller.EmployeeControllerTest:  88 - Start testInsertEmployee
+12:03:13,390  INFO     client.controller.EmployeeController:  83 - Insert new employee in selecting department
+12:03:13,391 DEBUG       client.service.EmployeeServiceImpl:  49 - create employee :
+12:03:13,487 DEBUG       client.service.EmployeeServiceImpl:  51 - Employee created successfully: Employee - Id:  32,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:13,495 DEBUG client.controller.EmployeeControllerTest: 107 - Finish testInsertEmployee
+12:03:15,143 DEBUG client.service.DepartmentServiceImplTest:  38 - Start testGet
+12:03:15,145 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 1
+12:03:15,327 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1092.3077
+12:03:15,337 DEBUG client.service.DepartmentServiceImplTest:  41 - Finish testGet
+12:03:15,343 DEBUG client.service.DepartmentServiceImplTest:  46 - Start testGetList
+12:03:15,344 DEBUG     client.service.DepartmentServiceImpl:  64 - retrieve all departments:
+12:03:16,869 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1092.3077
+12:03:16,870 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  2,  departmentName:  Test Department, average salary:  505.5833
+12:03:16,870 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  4,  departmentName:  Asou, average salary:  1045.0
+12:03:16,871 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  5,  departmentName:  Testing, average salary:  0.0
+12:03:16,872 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  6,  departmentName:  Central department, average salary:  622.0
+12:03:16,872 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  7,  departmentName:  Department99, average salary:  0.0
+12:03:16,873 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  8,  departmentName:  New test Department, average salary:  0.0
+12:03:16,873 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  9,  departmentName:  New test Department, average salary:  0.0
+12:03:16,878 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  10,  departmentName:  New test Department, average salary:  0.0
+12:03:16,879 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  11,  departmentName:  New test Department, average salary:  0.0
+12:03:16,880 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  12,  departmentName:  Department99, average salary:  0.0
+12:03:16,880 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  13,  departmentName:  New test Department, average salary:  0.0
+12:03:16,881 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  14,  departmentName:  Department99, average salary:  0.0
+12:03:16,881 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  15,  departmentName:  New test Department, average salary:  0.0
+12:03:16,882 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  16,  departmentName:  Department99, average salary:  0.0
+12:03:16,882 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  17,  departmentName:  New test Department, average salary:  0.0
+12:03:16,883 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  18,  departmentName:  Department99, average salary:  0.0
+12:03:16,883 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  19,  departmentName:  New test Department, average salary:  0.0
+12:03:16,884 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  20,  departmentName:  Department99, average salary:  0.0
+12:03:16,884 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  21,  departmentName:  New test Department, average salary:  0.0
+12:03:16,885 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  22,  departmentName:  Department99, average salary:  0.0
+12:03:16,885 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  23,  departmentName:  New test Department, average salary:  0.0
+12:03:16,886 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  24,  departmentName:  Department99, average salary:  0.0
+12:03:16,886 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  25,  departmentName:  New test Department, average salary:  0.0
+12:03:16,887 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  26,  departmentName:  Department99, average salary:  0.0
+12:03:16,887 DEBUG client.service.DepartmentServiceImplTest:  49 - Finish testGetList
+12:03:16,895 DEBUG client.service.DepartmentServiceImplTest:  63 - Start testDelete
+12:03:16,895 DEBUG     client.service.DepartmentServiceImpl:  87 - delete department by id : 3
+12:03:16,941 DEBUG client.service.DepartmentServiceImplTest:  65 - Finish testDelete
+12:03:16,947 DEBUG client.service.DepartmentServiceImplTest:  27 - Start testInsert
+12:03:16,947 DEBUG     client.service.DepartmentServiceImpl:  41 - create department :
+12:03:17,024 DEBUG     client.service.DepartmentServiceImpl:  43 - Department created successfully: Department - Id:  27,  departmentName:  New test Department, average salary:  0.0
+12:03:17,024 DEBUG client.service.DepartmentServiceImplTest:  33 - Finish testInsert
+12:03:17,030 DEBUG client.service.DepartmentServiceImplTest:  54 - Start testUpdate
+12:03:17,031 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 2
+12:03:17,089 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  2,  departmentName:  Test Department, average salary:  505.5833
+12:03:17,090 DEBUG     client.service.DepartmentServiceImpl:  77 - update department by id :
+12:03:17,160 DEBUG     client.service.DepartmentServiceImpl:  79 - Department update successfully: Department - Id:  2,  departmentName:  Test Department, average salary:  505.5833
+12:03:17,161 DEBUG client.service.DepartmentServiceImplTest:  58 - Finish testUpdate
+12:03:17,185 DEBUG   client.service.EmployeeServiceImplTest:  45 - Start testGet
+12:03:17,186 DEBUG       client.service.EmployeeServiceImpl:  61 - retrieve a employee by id : 1
+12:03:17,254 DEBUG       client.service.EmployeeServiceImpl:  63 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:03:17,255 DEBUG   client.service.EmployeeServiceImplTest:  48 - Finish testGet
+12:03:17,261 DEBUG   client.service.EmployeeServiceImplTest:  53 - Start testGetList
+12:03:17,262 DEBUG       client.service.EmployeeServiceImpl:  73 - Testing retrieve all employees: 1
+12:03:17,362 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:03:17,362 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  11,  departmentId:  1,  departmentName:  Department19, fullName: Makar, birthDate: 1991-05-21, salary: 2500.0
+12:03:17,363 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  13,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,364 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  16,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,364 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  18,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,365 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  20,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,366 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  22,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,366 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  24,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,367 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  25,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,368 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  26,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,368 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  28,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,369 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  30,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,370 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  32,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,371 DEBUG   client.service.EmployeeServiceImplTest:  56 - Finish testGetList
+12:03:17,377 DEBUG   client.service.EmployeeServiceImplTest:  80 - Start testFindBetween
+12:03:17,378 DEBUG       client.service.EmployeeServiceImpl: 107 - find employee range : for range date: '23-12-1982' - '10-02-2011'
+12:03:17,462 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:03:17,463 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, birthDate: 1985-08-21, salary: 255.0
+12:03:17,463 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  6,  departmentId:  2,  departmentName:  Test Department, fullName: Drozd, birthDate: 1988-01-01, salary: 560.0
+12:03:17,464 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  8,  departmentId:  6,  departmentName:  Central department, fullName: Kiril, birthDate: 1985-08-21, salary: 455.0
+12:03:17,465 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  9,  departmentId:  6,  departmentName:  Central department, fullName: Nikolai, birthDate: 1985-08-23, salary: 789.0
+12:03:17,465 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  10,  departmentId:  4,  departmentName:  Asou, fullName: Max, birthDate: 1994-07-20, salary: 990.0
+12:03:17,466 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  11,  departmentId:  1,  departmentName:  Department19, fullName: Makar, birthDate: 1991-05-21, salary: 2500.0
+12:03:17,467 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  12,  departmentId:  2,  departmentName:  Test Department, fullName: Klarc, birthDate: 1983-02-21, salary: 1850.0
+12:03:17,467 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  13,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,468 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  16,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,468 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  18,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,485 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  20,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,486 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  22,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,487 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  24,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,487 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  25,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,488 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  26,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,489 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  28,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,489 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  30,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,490 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  32,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:03:17,491 DEBUG   client.service.EmployeeServiceImplTest:  85 - Finish testFindBetween
+12:03:17,498 DEBUG   client.service.EmployeeServiceImplTest:  73 - Start testDelete
+12:03:17,499 DEBUG       client.service.EmployeeServiceImpl:  96 - delete employee by id : 3
+12:03:17,548 DEBUG   client.service.EmployeeServiceImplTest:  75 - Finish testDelete
+12:03:17,554 DEBUG   client.service.EmployeeServiceImplTest:  31 - Start testInsert
+12:03:17,555 DEBUG       client.service.EmployeeServiceImpl:  49 - create employee :
+12:03:17,625 DEBUG       client.service.EmployeeServiceImpl:  51 - Employee created successfully: Employee - Id:  33,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:03:17,626 DEBUG   client.service.EmployeeServiceImplTest:  40 - Finish testInsert
+12:03:17,631 DEBUG   client.service.EmployeeServiceImplTest:  61 - Start testUpdate
+12:03:17,632 DEBUG       client.service.EmployeeServiceImpl:  61 - retrieve a employee by id : 5
+12:03:17,682 DEBUG       client.service.EmployeeServiceImpl:  63 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, birthDate: 1985-08-21, salary: 255.0
+12:03:17,683 DEBUG       client.service.EmployeeServiceImpl:  86 - update employee by id :
+12:03:17,753 DEBUG       client.service.EmployeeServiceImpl:  88 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, birthDate: 1985-08-21, salary: 255.0
+12:03:17,753 DEBUG   client.service.EmployeeServiceImplTest:  68 - Finish testUpdate
+12:33:43,601 DEBUG client.controller.EmployeeControllerTest:  81 - Start testGetEmployeeLIst
+12:33:43,884  INFO   client.controller.DepartmentController:  59 - Delete department
+12:33:43,890 DEBUG     client.service.DepartmentServiceImpl:  87 - delete department by id : 3
+12:33:45,436 DEBUG client.controller.EmployeeControllerTest:  89 - Finish testGetEmployeeLIst
+12:33:45,475 DEBUG client.controller.EmployeeControllerTest:  68 - Start testAddDepartment
+12:33:45,501  INFO   client.controller.DepartmentController:  46 - View form add new department
+12:33:45,602 DEBUG client.controller.EmployeeControllerTest:  76 - Finish testAddDepartment
+12:33:45,640 DEBUG client.controller.EmployeeControllerTest: 126 - Start testUpdateDepartment
+12:33:45,647  INFO   client.controller.DepartmentController: 101 - Update the editing existing department
+12:33:45,648 DEBUG     client.service.DepartmentServiceImpl:  77 - update department by id :
+12:33:47,034 DEBUG     client.service.DepartmentServiceImpl:  79 - Department update successfully: Department - Id:  1,  departmentName:  Department19, average salary:  null
+12:33:47,043 DEBUG client.controller.EmployeeControllerTest: 140 - Finish testUpdateDepartment
+12:33:47,088 DEBUG client.controller.EmployeeControllerTest:  94 - Start testInsertDepartment
+12:33:47,092  INFO   client.controller.DepartmentController:  71 - Insert new department
+12:33:47,093 DEBUG     client.service.DepartmentServiceImpl:  41 - create department :
+12:33:47,390 DEBUG     client.service.DepartmentServiceImpl:  43 - Department created successfully: Department - Id:  7,  departmentName:  Department99, average salary:  0.0
+12:33:47,400 DEBUG client.controller.EmployeeControllerTest: 107 - Finish testInsertDepartment
+12:33:47,446 DEBUG client.controller.EmployeeControllerTest: 112 - Start testEditDepartment
+12:33:47,451  INFO   client.controller.DepartmentController:  85 - View form editing new department
+12:33:47,452 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 1
+12:33:47,530 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  1,  departmentName:  Department19, average salary:  2164.0
+12:33:47,538 DEBUG client.controller.EmployeeControllerTest: 121 - Finish testEditDepartment
+12:33:47,564 DEBUG client.controller.EmployeeControllerTest:  51 - Start testGetDepartmentLIst
+12:33:47,569 DEBUG     client.service.DepartmentServiceImpl:  64 - retrieve all departments:
+12:33:47,832 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  1,  departmentName:  Department19, average salary:  2164.0
+12:33:47,833 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  2,  departmentName:  Communication, average salary:  1042.0
+12:33:47,834 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  4,  departmentName:  Asou, average salary:  1045.0
+12:33:47,835 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  5,  departmentName:  Testing, average salary:  0.0
+12:33:47,835 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  6,  departmentName:  Central department, average salary:  622.0
+12:33:47,836 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  7,  departmentName:  Department99, average salary:  0.0
+12:33:47,845 DEBUG client.controller.EmployeeControllerTest:  63 - Finish testGetDepartmentLIst
+12:33:47,911 DEBUG client.controller.EmployeeControllerTest: 112 - Start testDeleteEmployee
+12:33:47,931  INFO     client.controller.EmployeeController: 100 - Delete an existing employee in selecting department
+12:33:47,932 DEBUG       client.service.EmployeeServiceImpl:  96 - delete employee by id : 2
+12:33:48,015 DEBUG client.controller.EmployeeControllerTest: 121 - Finish testDeleteEmployee
+12:33:48,039 DEBUG client.controller.EmployeeControllerTest: 164 - Start testFindEmployee
+12:33:48,078  INFO     client.controller.EmployeeController: 151 - View table to show all employee in selecting department
+12:33:48,082 DEBUG       client.service.EmployeeServiceImpl: 107 - find employee range : for range date: '21-08-1985' - '21-08-1985'
+12:33:48,472 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Communication, fullName: Viktor, birthDate: 1985-08-21, salary: 900.0
+12:33:48,473 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  8,  departmentId:  6,  departmentName:  Central department, fullName: Kiril, birthDate: 1985-08-21, salary: 455.0
+12:33:48,487  INFO     client.controller.EmployeeController: 151 - View table to show all employee in selecting department
+12:33:48,489 DEBUG       client.service.EmployeeServiceImpl: 107 - find employee range : for range date: '21-08-1981' - '21-08-2015'
+12:33:48,597 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Kiril, birthDate: 1999-08-11, salary: 1992.0
+12:33:48,598 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  3,  departmentId:  2,  departmentName:  Communication, fullName: Sergey, birthDate: 1989-12-28, salary: 858.0
+12:33:48,599 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Communication, fullName: Viktor, birthDate: 1985-08-21, salary: 900.0
+12:33:48,600 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  6,  departmentId:  2,  departmentName:  Communication, fullName: Drozd, birthDate: 1988-01-01, salary: 560.0
+12:33:48,600 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  8,  departmentId:  6,  departmentName:  Central department, fullName: Kiril, birthDate: 1985-08-21, salary: 455.0
+12:33:48,601 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  9,  departmentId:  6,  departmentName:  Central department, fullName: Nikolai, birthDate: 1985-08-23, salary: 789.0
+12:33:48,602 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  10,  departmentId:  4,  departmentName:  Asou, fullName: Max, birthDate: 1994-07-20, salary: 990.0
+12:33:48,603 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  11,  departmentId:  1,  departmentName:  Department19, fullName: Makar, birthDate: 1991-05-21, salary: 2500.0
+12:33:48,604 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  12,  departmentId:  2,  departmentName:  Communication, fullName: Klarc, birthDate: 1983-02-21, salary: 1850.0
+12:33:48,622  INFO     client.controller.EmployeeController: 151 - View table to show all employee in selecting department
+12:33:48,624 DEBUG       client.service.EmployeeServiceImpl: 107 - find employee range : for date: '21-08-1985'
+12:33:48,696 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Communication, fullName: Viktor, birthDate: 1985-08-21, salary: 900.0
+12:33:48,697 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  8,  departmentId:  6,  departmentName:  Central department, fullName: Kiril, birthDate: 1985-08-21, salary: 455.0
+12:33:48,711 DEBUG client.controller.EmployeeControllerTest: 202 - Finish testFindEmployee
+12:33:48,740 DEBUG client.controller.EmployeeControllerTest:  73 - Start testAddEmployee
+12:33:48,747  INFO     client.controller.EmployeeController:  66 - View form add new employee in selecting department
+12:33:48,748 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 1
+12:33:48,868 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  1,  departmentName:  Department19, average salary:  2246.0
+12:33:48,878 DEBUG client.controller.EmployeeControllerTest:  83 - Finish testAddEmployee
+12:33:48,904 DEBUG client.controller.EmployeeControllerTest:  55 - Start testGetEmployeeLIst
+12:33:48,910  INFO     client.controller.EmployeeController:  46 - View table to show all employee in selecting department
+12:33:48,911 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 2
+12:33:48,997 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  2,  departmentName:  Communication, average salary:  1042.0
+12:33:48,998 DEBUG       client.service.EmployeeServiceImpl:  73 - Testing retrieve all employees: 2
+12:33:49,119 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  3,  departmentId:  2,  departmentName:  Communication, fullName: Sergey, birthDate: 1989-12-28, salary: 858.0
+12:33:49,120 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Communication, fullName: Viktor, birthDate: 1985-08-21, salary: 900.0
+12:33:49,121 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  6,  departmentId:  2,  departmentName:  Communication, fullName: Drozd, birthDate: 1988-01-01, salary: 560.0
+12:33:49,121 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  12,  departmentId:  2,  departmentName:  Communication, fullName: Klarc, birthDate: 1983-02-21, salary: 1850.0
+12:33:49,135 DEBUG client.controller.EmployeeControllerTest:  68 - Finish testGetEmployeeLIst
+12:33:49,165 DEBUG client.controller.EmployeeControllerTest: 126 - Start testEditEmployee
+12:33:49,170  INFO     client.controller.EmployeeController: 117 - View form edit an existing employee in selecting department
+12:33:49,172 DEBUG       client.service.EmployeeServiceImpl:  61 - retrieve a employee by id : 1
+12:33:49,256 DEBUG       client.service.EmployeeServiceImpl:  63 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Kiril, birthDate: 1999-08-11, salary: 1992.0
+12:33:49,270 DEBUG client.controller.EmployeeControllerTest: 135 - Finish testEditEmployee
+12:33:49,301 DEBUG client.controller.EmployeeControllerTest: 140 - Start testUpdateEmployee
+12:33:49,310  INFO     client.controller.EmployeeController: 133 - Update the editing existing employee in selecting department
+12:33:49,311 DEBUG       client.service.EmployeeServiceImpl:  86 - update employee by id :
+12:33:49,509 DEBUG       client.service.EmployeeServiceImpl:  88 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  null, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:33:49,509 DEBUG       client.service.EmployeeServiceImpl:  61 - retrieve a employee by id : 1
+12:33:49,586 DEBUG       client.service.EmployeeServiceImpl:  63 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:33:49,596 DEBUG client.controller.EmployeeControllerTest: 159 - Finish testUpdateEmployee
+12:33:49,632 DEBUG client.controller.EmployeeControllerTest:  88 - Start testInsertEmployee
+12:33:49,643  INFO     client.controller.EmployeeController:  83 - Insert new employee in selecting department
+12:33:49,644 DEBUG       client.service.EmployeeServiceImpl:  49 - create employee :
+12:33:49,802 DEBUG       client.service.EmployeeServiceImpl:  51 - Employee created successfully: Employee - Id:  13,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:33:49,811 DEBUG client.controller.EmployeeControllerTest: 107 - Finish testInsertEmployee
+12:33:51,444 DEBUG client.service.DepartmentServiceImplTest:  38 - Start testGet
+12:33:51,445 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 1
+12:33:51,574 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1233.3333
+12:33:51,574 DEBUG client.service.DepartmentServiceImplTest:  41 - Finish testGet
+12:33:51,582 DEBUG client.service.DepartmentServiceImplTest:  46 - Start testGetList
+12:33:51,582 DEBUG     client.service.DepartmentServiceImpl:  64 - retrieve all departments:
+12:33:51,659 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  1,  departmentName:  Department19, average salary:  1233.3333
+12:33:51,660 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  2,  departmentName:  Communication, average salary:  1042.0
+12:33:51,661 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  4,  departmentName:  Asou, average salary:  1045.0
+12:33:51,661 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  5,  departmentName:  Testing, average salary:  0.0
+12:33:51,662 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  6,  departmentName:  Central department, average salary:  622.0
+12:33:51,662 DEBUG     client.service.DepartmentServiceImpl:  67 - department: Department - Id:  7,  departmentName:  Department99, average salary:  0.0
+12:33:51,663 DEBUG client.service.DepartmentServiceImplTest:  49 - Finish testGetList
+12:33:51,670 DEBUG client.service.DepartmentServiceImplTest:  63 - Start testDelete
+12:33:51,671 DEBUG     client.service.DepartmentServiceImpl:  87 - delete department by id : 3
+12:33:51,740 DEBUG client.service.DepartmentServiceImplTest:  65 - Finish testDelete
+12:33:51,798 DEBUG client.service.DepartmentServiceImplTest:  27 - Start testInsert
+12:33:51,799 DEBUG     client.service.DepartmentServiceImpl:  41 - create department :
+12:33:51,945 DEBUG     client.service.DepartmentServiceImpl:  43 - Department created successfully: Department - Id:  8,  departmentName:  New test Department, average salary:  0.0
+12:33:51,945 DEBUG client.service.DepartmentServiceImplTest:  33 - Finish testInsert
+12:33:51,951 DEBUG client.service.DepartmentServiceImplTest:  54 - Start testUpdate
+12:33:51,951 DEBUG     client.service.DepartmentServiceImpl:  53 - retrieve a department by id : 2
+12:33:52,057 DEBUG     client.service.DepartmentServiceImpl:  55 - department: Department - Id:  2,  departmentName:  Communication, average salary:  1042.0
+12:33:52,058 DEBUG     client.service.DepartmentServiceImpl:  77 - update department by id :
+12:33:52,144 DEBUG     client.service.DepartmentServiceImpl:  79 - Department update successfully: Department - Id:  2,  departmentName:  Test Department, average salary:  1042.0
+12:33:52,145 DEBUG client.service.DepartmentServiceImplTest:  58 - Finish testUpdate
+12:33:52,172 DEBUG   client.service.EmployeeServiceImplTest:  45 - Start testGet
+12:33:52,173 DEBUG       client.service.EmployeeServiceImpl:  61 - retrieve a employee by id : 1
+12:33:52,272 DEBUG       client.service.EmployeeServiceImpl:  63 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:33:52,273 DEBUG   client.service.EmployeeServiceImplTest:  48 - Finish testGet
+12:33:52,280 DEBUG   client.service.EmployeeServiceImplTest:  53 - Start testGetList
+12:33:52,280 DEBUG       client.service.EmployeeServiceImpl:  73 - Testing retrieve all employees: 1
+12:33:52,412 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:33:52,413 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  11,  departmentId:  1,  departmentName:  Department19, fullName: Makar, birthDate: 1991-05-21, salary: 2500.0
+12:33:52,413 DEBUG       client.service.EmployeeServiceImpl:  76 - employee: Employee - Id:  13,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:33:52,414 DEBUG   client.service.EmployeeServiceImplTest:  56 - Finish testGetList
+12:33:52,420 DEBUG   client.service.EmployeeServiceImplTest:  80 - Start testFindBetween
+12:33:52,422 DEBUG       client.service.EmployeeServiceImpl: 107 - find employee range : for range date: '23-12-1982' - '10-02-2011'
+12:33:52,562 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  1,  departmentId:  1,  departmentName:  Department19, fullName: Edit Name, birthDate: 1989-01-17, salary: 150.0
+12:33:52,563 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  3,  departmentId:  2,  departmentName:  Test Department, fullName: Sergey, birthDate: 1989-12-28, salary: 858.0
+12:33:52,564 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Viktor, birthDate: 1985-08-21, salary: 900.0
+12:33:52,564 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  6,  departmentId:  2,  departmentName:  Test Department, fullName: Drozd, birthDate: 1988-01-01, salary: 560.0
+12:33:52,565 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  8,  departmentId:  6,  departmentName:  Central department, fullName: Kiril, birthDate: 1985-08-21, salary: 455.0
+12:33:52,566 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  9,  departmentId:  6,  departmentName:  Central department, fullName: Nikolai, birthDate: 1985-08-23, salary: 789.0
+12:33:52,566 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  10,  departmentId:  4,  departmentName:  Asou, fullName: Max, birthDate: 1994-07-20, salary: 990.0
+12:33:52,567 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  11,  departmentId:  1,  departmentName:  Department19, fullName: Makar, birthDate: 1991-05-21, salary: 2500.0
+12:33:52,567 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  12,  departmentId:  2,  departmentName:  Test Department, fullName: Klarc, birthDate: 1983-02-21, salary: 1850.0
+12:33:52,568 DEBUG       client.service.EmployeeServiceImpl: 114 - employee: Employee - Id:  13,  departmentId:  1,  departmentName:  Department19, fullName: Control Name, birthDate: 2009-10-23, salary: 1050.0
+12:33:52,569 DEBUG   client.service.EmployeeServiceImplTest:  85 - Finish testFindBetween
+12:33:52,575 DEBUG   client.service.EmployeeServiceImplTest:  73 - Start testDelete
+12:33:52,576 DEBUG       client.service.EmployeeServiceImpl:  96 - delete employee by id : 3
+12:33:52,631 DEBUG   client.service.EmployeeServiceImplTest:  75 - Finish testDelete
+12:33:52,637 DEBUG   client.service.EmployeeServiceImplTest:  31 - Start testInsert
+12:33:52,638 DEBUG       client.service.EmployeeServiceImpl:  49 - create employee :
+12:33:52,781 DEBUG       client.service.EmployeeServiceImpl:  51 - Employee created successfully: Employee - Id:  14,  departmentId:  2,  departmentName:  Test Department, fullName: New test Employee, birthDate: 1982-02-13, salary: 378.0
+12:33:52,782 DEBUG   client.service.EmployeeServiceImplTest:  40 - Finish testInsert
+12:33:52,788 DEBUG   client.service.EmployeeServiceImplTest:  61 - Start testUpdate
+12:33:52,788 DEBUG       client.service.EmployeeServiceImpl:  61 - retrieve a employee by id : 5
+12:33:52,888 DEBUG       client.service.EmployeeServiceImpl:  63 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Viktor, birthDate: 1985-08-21, salary: 900.0
+12:33:52,890 DEBUG       client.service.EmployeeServiceImpl:  86 - update employee by id :
+12:33:53,030 DEBUG       client.service.EmployeeServiceImpl:  88 - employee: Employee - Id:  5,  departmentId:  2,  departmentName:  Test Department, fullName: Update test Employee, birthDate: 1985-08-21, salary: 255.0
+12:33:53,031 DEBUG   client.service.EmployeeServiceImplTest:  68 - Finish testUpdate

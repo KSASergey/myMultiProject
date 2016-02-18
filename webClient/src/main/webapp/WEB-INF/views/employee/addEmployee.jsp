@@ -8,7 +8,7 @@
     <spring_tags:url value="/resources/css/table.css" var="mainCss" />
     <link href="${mainCss}" rel="stylesheet" />
 
-    <title>Update Employee</title>
+    <title>Add Employee for Department'</title>
 </head>
 
 <body>
@@ -18,15 +18,15 @@
     <br><br>
 
     <div align="center">
-        <spring:form method="post" modelAttribute="modelEmployee" action="update_Employee">
-            <h2 class="all"> Edit 'Employee' for Department: '${tempDepartment.department}' </h2>
+        <spring:form method="post" modelAttribute="modelEmployee" action="insert_Employee">
+            <h2 class="all"> Add 'Employee' for Department: '${tempDepartment.departmentName}' </h2>
             <table class="myformat">
                 <tr>
                     <td>
                         <label>Full Name:</label>
                     </td>
                     <td>
-                        <spring:input size="40%" value="${employee.fullName}" path="fullName"/>
+                        <spring:input size="40%" path="fullName"/>
                     </td>
                 </tr>
                 <tr>
@@ -34,7 +34,7 @@
                         <label>Date of birth:</label>
                     </td>
                     <td>
-                        <spring:input type="Date" size="40%" value="${employee.birthDate}" path="birthDate"/>
+                        <spring:input type="Date" size="40%" path="birthDate"/>
                     </td>
                 </tr>
                 <tr>
@@ -42,14 +42,13 @@
                         <label>Salary:</label>
                     </td>
                     <td>
-                        <spring:input size="40%" value="${employee.salary}" path="salary"/>
+                        <spring:input size="40%" path="salary"/>
                     </td>
                 </tr>
             </table>
             <br><br>
-
-            <input type="submit" value="Submit" class="myinput">
-            <spring:hidden path="id" value="${employee.id}" />
+            <input type="submit" value="Add" class="myinput">
+            <spring:hidden path="departmentId" value="${modelDepartment.id}" />
         </spring:form>
     </div>
 

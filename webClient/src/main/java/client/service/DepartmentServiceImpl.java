@@ -2,47 +2,89 @@ package client.service;
 
 import client.model.Department;
 import client.model.Departments;
-import com.google.common.collect.Lists;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.List;
-
+/**
+ * Service employee for connect restService
+ */
 @Service("departmentService")
-@Transactional
 public class DepartmentServiceImpl implements DepartmentService {
+
+    private static final Logger logger = LoggerFactory.getLogger(DepartmentServiceImpl.class);
 
     @Autowired
     RestTemplate restTemplate;
 
-    private static final String URL_GET_ALL_CONTACTS =
-            "http://localhost/restService/restful/department/listdata";
+    private static final String URL_SERVER = "http://localhost";
 
-    public void insert(Department department) {
-//        departmentDao.insert(department);
+    private static final String URL_GET_ALL_DepartmentS =
+            URL_SERVER + "/restService/restful/department/listdata";
+    private static final String URL_GET_Department_BY_ID =
+            URL_SERVER + "/restService/restful/department/{id}";
+    private static final String URL_CREATE_Department =
+            URL_SERVER + "/restService/restful/department/";
+    private static final String URL_UPDATE_Department =
+            URL_SERVER + "/restService/restful/department/{id}";
+    private static final String URL_DELETE_Department =
+            URL_SERVER + "/restService/restful/department/{id}";
+
+    /**
+     * insert a new department
+     * @param department a new department
+     * @return a new department
+     */
+    public Department insert(Department department) {
+        logger.debug("create department :");
+        department = restTemplate.postForObject(URL_CREATE_Department, department, Department.class);
+        logger.debug("Department created successfully: {}", department);
+        return department;
     }
 
+    /**
+     * Retrieves a single department
+     * @param id the id of the existing department
+     * @return the existing department
+     */
     public Department get(Long id) {
-//        return departmentDao.get(id);
-        return null;
+        logger.debug("retrieve a department by id : {}", id);
+        Department department = restTemplate.getForObject(URL_GET_Department_BY_ID, Department.class, id);
+        logger.debug("department: {}", department);
+        return department;
     }
 
+    /**
+     * Retrieves all department
+     * @return a list of department
+     */
     public Departments getList() {
-//        return Lists.newArrayList(departmentDao.getList());
-
-        System.out.println("Testing retrieve all contacts:");
-        Departments departments =
-                restTemplate.getForObject(URL_GET_ALL_CONTACTS, Departments.class);
+        logger.debug("retrieve all departments:");
+        Departments departments = restTemplate.getForObject(URL_GET_ALL_DepartmentS, Departments.class);
+        for (Department department : departments.getDepartments()) {
+            logger.debug("department: {}", department);
+        }
         return departments;
     }
 
+    /**
+     * update an existing department
+     * @param department the editing department
+     */
     public void update(Department department) {
-//        departmentDao.update(department);
+        logger.debug("update department by id :");
+        restTemplate.put(URL_UPDATE_Department, department, department.getId());
+        logger.debug("Department update successfully: {}", department);
     }
 
+    /**
+     * Deletes an existing department
+     * @param id the id of the existing department
+     */
     public void delete(Long id) {
-//        departmentDao.delete(id);
+        logger.debug("delete department by id : {}", id);
+        restTemplate.delete(URL_DELETE_Department, id);
     }
 }
