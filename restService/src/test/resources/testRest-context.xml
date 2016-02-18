@@ -20,7 +20,7 @@
         </mvc:message-converters>
     </mvc:annotation-driven>
 
-    <context:component-scan base-package="client"/>
+    <context:component-scan base-package="rest"/>
 
     <bean id="castorMarshaller" class="org.springframework.oxm.castor.CastorMarshaller">
         <property name="mappingLocation" value="classpath:META-INF/spring/oxm-mapping.xml"/>

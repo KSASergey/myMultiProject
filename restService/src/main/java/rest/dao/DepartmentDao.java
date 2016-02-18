@@ -1,18 +1,21 @@
 package rest.dao;
 
 import rest.model.Department;
+import javax.sql.DataSource;
 import java.util.List;
 
 public interface DepartmentDao {
 
-    public void insert(Department department);
+    void setDataSource(DataSource dataSource);
 
-    public Department get(Long id);
+    Department insert(Department department);
 
-    public List<Department> getList();
+    Department get(Long id);
 
-    public void delete(Long id);
+    List<Department> getList();
 
-    public void update(Department department);
+    void delete(Long id);
+
+    Department update(Department department);
 
 }

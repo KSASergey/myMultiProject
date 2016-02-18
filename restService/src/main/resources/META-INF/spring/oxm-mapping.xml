@@ -1,0 +1,51 @@
+<mapping>
+    <class name="rest.model.Departments">
+        <field name="departments" type="rest.model.Department" collection="arraylist">
+            <bind-xml name="department"/>
+        </field>
+    </class>
+
+    <class name="rest.model.Department" identity="id">
+        <map-to xml="department" />
+
+        <field name="id" type="long">
+            <bind-xml name="id" node="element"/>
+        </field>
+        <field name="departmentName" type="string">
+            <bind-xml name="departmentName" node="element" />
+        </field>
+        <field name="averageSalary" type="double">
+            <bind-xml name="averageSalary" node="element" />
+        </field>
+    </class>
+
+    <class name="rest.model.Employees">
+        <field name="Employees" type="rest.model.Employee" collection="arraylist">
+            <bind-xml name="employee"/>
+        </field>
+    </class>
+
+    <class name="rest.model.Employee" identity="id">
+        <map-to xml="employee" />
+
+        <field name="id" type="long">
+            <bind-xml name="id" node="element"/>
+        </field>
+        <field name="departmentId" type="long">
+            <bind-xml name="departmentId" node="element"/>
+        </field>
+        <field name="departmentName" type="string">
+            <bind-xml name="departmentName" node="element" />
+        </field>
+        <field name="fullName" type="string">
+            <bind-xml name="fullName" node="element" />
+        </field>
+        <field name="birthDate" type="sqldate">
+            <bind-xml name="birthDate" node="element" />
+        </field>
+
+        <field name="salary" type="double">
+            <bind-xml name="salary" node="element" />
+        </field>
+    </class>
+</mapping>

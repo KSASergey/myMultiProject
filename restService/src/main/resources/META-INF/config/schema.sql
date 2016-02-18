@@ -21,14 +21,14 @@ COMMIT;
 
 CREATE TABLE `mydbtest`.`employee` (
     `ID` INT NOT NULL AUTO_INCREMENT,
-    `ID_Department` INT NOT NULL,
+    `DepartmentID` INT NOT NULL,
     `FullName` VARCHAR(45) NOT NULL,
     `BirthDate` DATE NOT NULL,
     `Salary` INT NULL,
     PRIMARY KEY (`ID`),
-    INDEX `ID_Department_idx` (`ID_Department` ASC),
-    CONSTRAINT `ID_Department`
-    FOREIGN KEY (`ID_Department`)
+    INDEX `DepartmentID_idx` (`DepartmentId` ASC),
+    CONSTRAINT `DepartmentID`
+    FOREIGN KEY (`DepartmentID`)
     REFERENCES `mydbtest`.`department` (`ID`)
         ON DELETE CASCADE
         ON UPDATE CASCADE)

@@ -5,13 +5,13 @@ import rest.model.Department;
 
 public interface DepartmentService {
 
-    public void insert(Department department);
+    Department insert(Department department);
 
-    public Department get(Long id);
+    Department get(Long id);
 
-    public List<Department> getList();
+    List<Department> getList();
 
-    public void delete(Long id);
+    void delete(Long id);
 
-    public void update(Department department);
+    Department update(Department department);
 }
